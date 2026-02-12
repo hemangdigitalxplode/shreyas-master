@@ -1,0 +1,151 @@
+.solutions-section {
+  background: #efefe9;
+  padding: 90px 0;
+}
+
+.solutions-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.solutions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.header-left {
+  flex: 1;
+}
+
+.header-right {
+  flex: 1;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.solutions-subtitle {
+  color: #1e7a36;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.solutions-title {
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0;
+  color: #111;
+}
+
+.solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.solution-card {
+  background: #f7f7f4;
+  border-radius: 16px;
+  padding: 28px;
+  display: flex;
+  gap: 20px;
+  border: 1px solid #e3e3dd;
+  transition: all 0.3s ease;
+}
+
+.solution-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
+  border-color: #1e7a36;
+}
+
+.card-icon {
+  width: 55px;
+  height: 55px;
+  background: #dfe7df;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+.card-content h3 {
+  margin: 8px 0 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+}
+
+.card-content p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 999px;
+  margin-bottom: 6px;
+}
+
+.badge.yellow {
+  background: #fdecc8;
+  color: #b87b00;
+}
+
+.badge.orange {
+  background: #ffe1c2;
+  color: #d36b00;
+}
+
+.learn-more {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e7a36;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.learn-more:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 992px) {
+  .solutions-header {
+    flex-direction: column;
+  }
+
+  .solutions-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .solutions-title {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 576px) {
+  .solutions-section {
+    padding: 70px 0;
+  }
+
+  .solution-card {
+    flex-direction: column;
+  }
+
+  .card-icon {
+    margin-bottom: 10px;
+  }
+}

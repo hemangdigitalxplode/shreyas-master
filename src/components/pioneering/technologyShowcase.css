@@ -1,0 +1,188 @@
+.tech-section {
+  background: #f2f2ef;
+  padding: 90px 0;
+}
+
+.tech-container {
+  width: 90%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.tech-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  margin-bottom: 50px;
+}
+
+.tech-left {
+  flex: 1;
+}
+
+.tech-right {
+  flex: 1;
+  color: #444;
+  line-height: 1.7;
+}
+
+.tech-subtitle {
+  color: #1f7a38;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.tech-title {
+  font-size: 42px;
+  font-weight: 800;
+  margin: 0;
+}
+
+
+.tech-board {
+  position: relative;
+  background: #067a1a;
+  border-radius: 24px;
+  height: 420px;
+  padding: 40px;
+  margin-bottom: 50px;
+
+
+  background-image:
+    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.board-title h3 {
+  color: #fff;
+  margin: 0;
+}
+
+.board-title p {
+  color: rgba(255,255,255,0.8);
+  font-size: 14px;
+}
+
+
+.hotspot {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #e8f5ec;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hotspot.active {
+  background: #f5b400;
+}
+
+.hotspot:hover {
+  transform: scale(1.1);
+}
+
+
+.hotspot-left {
+  left: 15%;
+  top: 45%;
+}
+
+.hotspot-top {
+  left: 50%;
+  top: 25%;
+  transform: translateX(-50%);
+}
+
+.hotspot-right {
+  right: 15%;
+  top: 55%;
+}
+
+.hotspot-center {
+  left: 45%;
+  top: 50%;
+}
+
+.info-card {
+  position: absolute;
+  left: 55%;
+  top: 52%;
+  transform: translateY(-50%);
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 16px;
+  width: 260px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.info-card h4 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.info-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+  line-height: 1.6;
+}
+
+
+.certifications {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cert-pill {
+  background: #fff;
+  padding: 12px 22px;
+  border-radius: 999px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+
+@media (max-width: 992px) {
+  .tech-header {
+    flex-direction: column;
+  }
+
+  .tech-title {
+    font-size: 34px;
+  }
+
+  .tech-board {
+    height: 350px;
+  }
+
+  .info-card {
+    position: static;
+    transform: none;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .tech-board {
+    padding: 25px;
+    height: 300px;
+  }
+
+  .hotspot {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+}
