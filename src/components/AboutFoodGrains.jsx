@@ -39,7 +39,7 @@ const AboutFoodGrains = () => {
                             <p>
                                 Shreyas Sortex is a professionally managed rice manufacturing and export company,
                                 founded under the leadership of Mr. Vinay Kumar Singh. With advanced
-                                Japanese milling technology and an integrated production model, SSIPL
+                                Japanese milling technology and an integrated production model, Shreyas
                                 serves both domestic and international markets with consistency and
                                 reliability.
                             </p>

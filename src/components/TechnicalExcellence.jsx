@@ -72,11 +72,19 @@ const TechnicalExcellence = () => {
                                 </li>
                                 <li className="d-flex align-items-center gap-2">
                                     <i className="bi bi-check-circle-fill text-success"></i>
-                                    <span>500+ Projects Delivered</span>
+                                    <span>Ontime Projects Delivered</span>
                                 </li>
                                 <li className="d-flex align-items-center gap-2">
                                     <i className="bi bi-check-circle-fill text-success"></i>
                                     <span>Expert Engineering Team</span>
+                                </li>
+                                <li className="d-flex align-items-center gap-2">
+                                    <i className="bi bi-check-circle-fill text-success"></i>
+                                    <span>Boiler Optimization</span>
+                                </li>
+                                <li className="d-flex align-items-center gap-2">
+                                    <i className="bi bi-check-circle-fill text-success"></i>
+                                    <span>Heat Integration</span>
                                 </li>
                             </ul>
                         </div>

@@ -25,14 +25,14 @@ const slidesData = [
         img: Slider3,
         title: "Title",
         boxTitle: "Integrated Rice Processing",
-        boxSubTitle: "Zero Discharge Operations",
+        boxSubTitle: "Standard Manufacturing Practices",
     },
     {
         id: 4,
         img: Slider4,
         title: "Title",
-        boxTitle: "High Capacity Manufacturing",
-        boxSubTitle: "Export to 30+ Countries",
+        boxTitle: "Experience the World-Class Quality",
+        boxSubTitle: "International Quality Standard",
     },
     {
         id: 4,
@@ -57,10 +57,12 @@ const ExpandingSlider = () => {
                 >
                     <img src={slide.img} alt={slide.title} />
 
-                    {/* Vertical title (optional if you already have) */}
-                    <h2 className="title">{slide.title}</h2>
+                    {/* ✅ Title only on inactive slides */}
+                    {activeIndex !== index && (
+                        <h2 className="title">{slide.boxTitle}</h2>
+                    )}
 
-                    {/* ✅ Bottom Left Info Box (ONLY ACTIVE SLIDE) */}
+                    {/* ✅ Info box only on active slide */}
                     {activeIndex === index && (
                         <div className="info-box">
                             <div className="info-left">
@@ -73,6 +75,7 @@ const ExpandingSlider = () => {
                     )}
                 </div>
             ))}
+
         </section>
     );
 };

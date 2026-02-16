@@ -26,10 +26,10 @@ const AboutEthanol = () => {
                         </h1>
                         <h6 className='smallHeading'>An integral part of Shreyas Group’s sustainable growth journey</h6>
                         <p>
-                            The Distilleries & Ethanol vertical of Shreyas Group represents our commitment to Finest malt spirits and world-class breweries development. Supporting India's sustainable growth and world-class alco-bev drinks
+                            The Distilleries & Breweries vertical of Shreyas Group represents our commitment to Finest malt spirits and world-class breweries development of potable spirits. Supporting India's sustainable growth and world-class alco-bev drinks
                         </p>
                         <p>
-                            Our operations integrate grain-based Ethanol ENA finest malt, brewery products with modern utilities, CO₂ recovery and DDGS corn oil, cattle feed, power export and energy optimization system. By combining technology-led processes with scalable infrastructure, we continue to strengthen our position in the bioenergy and Alco-bev System.
+                            Our operations integrate grain-based Ethanol ENA finest malt, brewery products with modern utilities, CO₂ recovery and DDGS, corn oil, cattle feed, power export and energy optimization system. By combining technology-led processes with scalable infrastructure, we continue to strengthen our position in the bioenergy and Alco-bev System.
                         </p>
                         {/* CTA Button */}
                         <button className="btn aboutBtn mt-3">

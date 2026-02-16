@@ -25,9 +25,9 @@ const EthanolHeroSection = () => {
             desc:
                 "Driving India's Green Energy for Better Future",
             stats: [
-                { value: "Ethanol", label: "Potable Spirits & ENA Production" },
-                { value: "Grain-Based", label: "Maize, Rice & Molasses" },
-                { value: "Breweries", label: "Breweries" },
+                { value: "Ethanol", label: "Ethanol, ENA Production & Potable Spirits" },
+                { value: "Feed Stock", label: "Maize, Rice & Molasses" },
+                { value: "Breweries", label: "RTD Products" },
                 // { value: "Captive Power", label: "Energy Self Reliant Operation" },
             ],
             ctaBtn: "Explore Our Capabilities"

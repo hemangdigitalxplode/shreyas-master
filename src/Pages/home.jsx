@@ -47,17 +47,10 @@ const Home = () => {
                                 Creating <br /> Integrated Value  <br /> for the Future
                             </h1>
                             <p>
-                                The Shreyas Group is a diversified Indian business group with strong
-                                presence across Food & Grain Processing, Distilleries & Ethanol, and
-                                Energy & Biofuels. Built on the principles of quality, innovation, and
-                                responsible growth, the Group has steadily expanded its operations to
-                                serve both domestic and international markets with reliability and trust.
+                                Shreyas Group is a diversified industrial organization under visionary leadership of Hon’ble Chairman & Managing Director, Mr. Vinay Kumar Singh with a strong and growing presence across Distillery & Ethanol Production, Rice Milling & Sortex, Potable Liquor & Brewery, Renewable Solar Energy, and the proposed Aviation, Iron & Steel business.
                             </p>
                             <p>
-                                Founded under the visionary leadership of Mr. Vinay Kumar Singh, the
-                                Shreyas Sortex brings together deep industry expertise, modern technology,
-                                and a future-focused approach to create scalable and sustainable
-                                enterprises across multiple sectors.
+                                Our distillery and ethanol division operates with advanced distillation technology and stringent quality, safety, and compliance standards to produce high-quality fuel ethanol meeting national and international specifications.
                             </p>
                             {/* CTA Button */}
                             <button className="btn aboutBtn mt-3">
@@ -86,7 +79,7 @@ const Home = () => {
                                 className={`tab-btn ${activeTab === "listed" ? "active" : ""}`}
                                 onClick={() => setActiveTab("listed")}
                             >
-                                Listed Companies
+                                List of Companies
                             </button>
                         </div>
                     </div>
@@ -96,6 +89,10 @@ const Home = () => {
                             modules={[Navigation, Autoplay]}
                             spaceBetween={24}
                             slidesPerView={3}
+                            navigation={{
+                                nextEl: ".verticals-next",
+                                prevEl: ".verticals-prev",
+                            }}
                             autoplay={{ delay: 5000, disableOnInteraction: false }}
                             breakpoints={{
                                 0: { slidesPerView: 1 },
@@ -149,6 +146,16 @@ const Home = () => {
                                         <img src={cardImg4} alt="Energy & Biofuels" />
                                         <div className="overlay">
                                             <h5>Potable Spirits</h5>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Link to="/potable-spirits">
+                                    <div className="business-card">
+                                        <img src='https://placehold.co/600x400' alt="Energy & Biofuels" />
+                                        <div className="overlay">
+                                            <h5>Upcoming Projects</h5>
                                         </div>
                                     </div>
                                 </Link>

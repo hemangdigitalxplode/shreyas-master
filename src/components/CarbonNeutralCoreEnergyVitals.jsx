@@ -16,13 +16,13 @@ const CarbonNeutralCoreEnergyVitals = () => {
         },
         {
             id: 2,
-            title: "Solar PV Solutions",
+            title: "Solar Energy Solutions",
             description:
                 "Large-scale rooftop and ground-mounted solar arrays for captive industrial use.",
             icon: "bi-sun",
             iconBg: "bg-warning-subtle",
             iconColor: "text-warning",
-            tags: ["Rooftop Systems", "Captive Power", "Ground-Mounted Arrays"],
+            tags: ["Rooftop Systems", "Solar Bess System", "Ground-Mounted Arrays", "Hybrid Renewable Energy"],
             tagBg: "bg-warning-subtle",
         },
         {
@@ -33,7 +33,7 @@ const CarbonNeutralCoreEnergyVitals = () => {
             icon: "bi-gear",
             iconBg: "bg-success-subtle",
             iconColor: "text-success",
-            tags: ["Heat Recovery", "Steam Turbines", "Combined Heat & Power"],
+            tags: ["Heat Recovery", "Steam Turbines", "Captive Power", "Power Export"],
             tagBg: "bg-success-subtle",
         },
     ];

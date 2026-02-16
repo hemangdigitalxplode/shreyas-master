@@ -52,7 +52,8 @@ const CoreCapibilities = () => {
                         slidesPerView={4}
                         autoplay={{
                             delay: 2500,
-                            disableOnInteraction: false,
+                            disableOnInteraction: true,
+                            pauseOnMouseEnter: true,
                         }}
                         loop={true}
                         breakpoints={{

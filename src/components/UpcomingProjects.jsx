@@ -11,7 +11,7 @@ const projectsData = [
     title:
       "Launch and Market Expansion of Premium Rice Brand “SUHELA”",
     description:
-      "SSIPL’s flagship brand SUHELA gains strong acceptance across domestic and export markets, offering a complete range of premium rice varieties known for aroma, purity, and consistency.",
+      "Shreyas Sortex’s flagship brand SUHELA gains strong acceptance across domestic and export markets, offering a complete range of premium rice varieties known for aroma, purity, and consistency.",
   },
   {
     id: 2,

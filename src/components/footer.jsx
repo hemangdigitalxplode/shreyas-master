@@ -1,6 +1,5 @@
 import React from "react";
 import logo from '../assets/images/logo.png'
-import mapImg from '../assets/images/logo.png'
 
 
 const Footer = () => {
@@ -59,8 +58,11 @@ const Footer = () => {
                             <h6>Businesses</h6>
                             <ul>
                                 <li>Shreyas Sortex Industries Private Limited</li>
-                                <li>Kisan Distilleries Private Limited</li>
+                                <li>Keyaan Distilleries Private Limited</li>
                                 <li>Shreyas Distilleries & Energy Private Limited</li>
+                                <li>Shreyas Re-energy Pvt Ltd.</li>
+                                <li>Shreyas Steel Pvt Ltd.</li>
+                                <li>Shreyas Airline Pvt Ltd.</li>
                             </ul>
                         </div>
 
@@ -68,12 +70,11 @@ const Footer = () => {
                         <div className="col-lg-3 col-md-6">
                             <h6>About Us</h6>
                             <ul>
-                                <li>Sustainability</li>
                                 <li>Newsroom</li>
                                 <li>Careers</li>
                                 <li>Downloads</li>
                                 <li>Contact Us</li>
-                                <li>Locate us</li>
+                                <li>Awards</li>
                             </ul>
                         </div>
 

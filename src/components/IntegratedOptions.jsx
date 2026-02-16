@@ -16,7 +16,7 @@ const IntegratedOptions = () => {
                     <div class="ethanol-integrated-right">
                         <p>
                             Our distillery operations are designed as a fully integrated ecosystem,
-                            combining ethanol production, CO₂ recovery, captive power, and by-product
+                            combining ENA, CO₂ recovery, captive power, and by-product
                             management. This integration enhances operational efficiency, reduces
                             environmental impact, and ensures reliable performance across the value
                             chain.

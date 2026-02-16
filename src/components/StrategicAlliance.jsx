@@ -80,7 +80,7 @@ const StrategicAlliance = () => {
 
                     {/* CERTIFICATIONS */}
                     <div
-                        className="rounded-4 py-4 px-3 text-center"
+                        className="rounded-4 py-4 px-3 text-center d-none"
                         style={{ backgroundColor: "#f8f8f4" }}
                     >
                         <h6 className="fw-semibold mb-3">

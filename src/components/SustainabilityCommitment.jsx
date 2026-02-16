@@ -10,7 +10,7 @@ const SustainabilityCommitment = () => {
         {
             id: 1,
             bgImage: sustainableImage,
-            heading: "Reducing environmental impact through responsible operations",
+            heading: "Sustainable operations through efficient technology & Green fuel",
             subText: "Reducing environmental impact through responsible operations",
             thumbImage: sustainableImage,
             thumbTitle: "Reducing environmental impact through responsible operations",

@@ -107,14 +107,14 @@ const IntelligentEnergyManagement = () => {
                                 </div>
 
                                 <p className="text-muted">
-                                    Ground-mounted photovoltaic system feeding directly into the industrial grid.
+                                    Ground-mounted photovoltaic system feeding directly into the industrial grid & goverment.
                                 </p>
 
                                 <div className="row g-3 mb-3">
                                     <div className="col-md-4">
                                         <div className="bg-light rounded-4 p-3 text-center">
                                             <div className="small">Output</div>
-                                            <div className="fw-bold text-success fs-5">2.4 MW</div>
+                                            <div className="fw-bold text-success fs-5">2.0 GW</div>
                                         </div>
                                     </div>
                                     <div className="col-md-4">

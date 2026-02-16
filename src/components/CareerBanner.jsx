@@ -8,7 +8,7 @@ const CareerBanner = () => {
 
         {/* Image Side */}
         <div className="career-banner-image">
-          <img src={careerImg} alt="Career at SSIPL" />
+          <img src={careerImg} alt="Career at Shreyas Sortex" />
         </div>
 
         {/* Content Overlay */}

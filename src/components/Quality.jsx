@@ -8,18 +8,18 @@ const Quality = () => {
     const sustainabilitySlides = [
         {
             id: 1,
-            bgImage: sustainableImage,
+            bgImage: tabImage2,
             heading: "Built on precision, safety, and regulatory discipline",
             subText: "Our Sustainability Practices",
-            thumbImage: sustainableImage,
+            thumbImage: tabImage2,
             thumbTitle: "Built on precision, safety, and regulatory discipline",
         },
         {
             id: 2,
-            bgImage: tabImage2,
+            bgImage: sustainableImage,
             heading: "Continuous process monitoring and quality testing",
             subText: "Efficient Irrigation Systems",
-            thumbImage: tabImage2,
+            thumbImage: sustainableImage,
             thumbTitle: "Continuous process monitoring and quality testing",
         },
         {

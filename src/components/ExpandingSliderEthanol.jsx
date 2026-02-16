@@ -11,8 +11,8 @@ const slidesData = [
         id: 1,
         img: Slider1,
         title: "Title",
-        boxTitle: "State of the Art Manufacturing Infrastructure",
-        boxSubTitle: "Japanese Satake Milling & Sortex",
+        boxTitle: "Manufacturing Facilities",
+        boxSubTitle: "Advance Process for delivery consitent with quality.",
     },
     {
         id: 2,
@@ -58,10 +58,12 @@ const ExpandingSliderEthanol = () => {
                     >
                         <img src={slide.img} alt={slide.title} />
 
-                        {/* Vertical title (optional if you already have) */}
-                        <h2 className="title">{slide.title}</h2>
+                        {/* ✅ Title only on inactive slides */}
+                        {activeIndex !== index && (
+                            <h2 className="title">{slide.boxTitle}</h2>
+                        )}
 
-                        {/* ✅ Bottom Left Info Box (ONLY ACTIVE SLIDE) */}
+                        {/* ✅ Info box only on active slide */}
                         {activeIndex === index && (
                             <div className="info-box">
                                 <div className="info-left">
