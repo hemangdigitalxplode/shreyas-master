@@ -56,10 +56,12 @@ const ExpandingSliderPotable = () => {
                     >
                         <img src={slide.img} alt={slide.title} />
 
-                        {/* Vertical title (optional if you already have) */}
-                        <h2 className="title">{slide.title}</h2>
+                        {/* ✅ Title only on inactive slides */}
+                        {activeIndex !== index && (
+                            <h2 className="title">{slide.boxTitle}</h2>
+                        )}
 
-                        {/* ✅ Bottom Left Info Box (ONLY ACTIVE SLIDE) */}
+                        {/* ✅ Info box only on active slide */}
                         {activeIndex === index && (
                             <div className="info-box">
                                 <div className="info-left">
@@ -72,6 +74,7 @@ const ExpandingSliderPotable = () => {
                         )}
                     </div>
                 ))}
+
             </section>
         </>
     )
