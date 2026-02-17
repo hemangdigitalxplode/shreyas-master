@@ -17,6 +17,7 @@ import PrecisionDistelleriesScalling from "./Pages/precisionDistelleriesScalling
 import Keyandistelleries from "./Pages/keyandistelleries";
 import Pioneering from "./Pages/pioneering";
 import Strength from "./Pages/Strength";
+import EmpoweringEcosystem from "./Pages/empoweringEcosystem";
 
 const App = () => {
   return (
@@ -41,6 +42,7 @@ const App = () => {
             <Route path="/keyan-distelleries-pvt-ltd" element={<Keyandistelleries />} />
             <Route path="/fueling-the-future" element={<Pioneering />} />
             <Route path="/our-strength" element={<Strength />} />
+            <Route path="/empowering-our-ecosystem" element={<EmpoweringEcosystem />} />
           </Routes>
         </main>
         {/* Footer – */}

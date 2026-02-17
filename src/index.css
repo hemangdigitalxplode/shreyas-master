@@ -1759,6 +1759,7 @@ body {
 }
 
 /* Thumbnails */
+/* Thumbnails */
 .sustain-thumbs {
   display: flex;
   gap: 0px;
@@ -1770,7 +1771,13 @@ body {
 .sustain-thumb {
   width: 150px;
   cursor: pointer;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.35s ease, opacity 0.35s ease;
+}
+
+/* ✅ hover pe thoda upar + zoom */
+.sustain-thumb:hover {
+  transform: translateY(-8px) scale(1.08);
+  z-index: 2;
 }
 
 .sustain-thumb img {
@@ -1778,6 +1785,13 @@ body {
   height: 80px;
   object-fit: cover;
   border-radius: 6px;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+/* ✅ image zoom + shadow on hover */
+.sustain-thumb:hover img {
+  transform: scale(1.08);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25);
 }
 
 .sustain-thumb p {
@@ -1787,14 +1801,28 @@ body {
   border-bottom: 2px solid rgba(255, 255, 255, 0.4);
   padding-bottom: 6px;
   width: 140px;
+  transition: all 0.35s ease;
 }
 
+/* ✅ text bada on hover */
+.sustain-thumb:hover p {
+  font-size: 12px;
+  border-bottom-color: #ffffff;
+}
+
+/* Active state */
 .sustain-thumb.active {
-  transform: translateY(-6px);
+  transform: translateY(-10px) scale(1.08);
+}
+
+.sustain-thumb.active img {
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25);
 }
 
 .sustain-thumb.active p {
   border-color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 /* ===============================
@@ -3999,7 +4027,7 @@ h2 {
   position: relative;
   width: 100%;
   padding: 100px 0;
-  background-image: url("src/assets/images/bg-last.jpg");
+  background-image: url("../src/assets/images/bg-last.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

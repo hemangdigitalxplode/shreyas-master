@@ -50,13 +50,13 @@ const QualityControlKpdl = () => {
                             />
 
                             <div className="mt-4">
-                                <h6 className="accreditation-title">Accreditations</h6>
+                                <h6 className="accreditation-title">Certification</h6>
                                 <div className="d-flex flex-wrap gap-4 accreditation-list">
                                     <span>ISO 9001</span>
                                     <span>ISO 14001</span>
-                                    <span>ISO 45001</span>
+                                    {/* <span>ISO 45001</span> */}
                                     <span>FSSAI</span>
-                                    <span>NABL</span>
+                                    {/* <span>NABL</span> */}
                                 </div>
                             </div>
                         </div>

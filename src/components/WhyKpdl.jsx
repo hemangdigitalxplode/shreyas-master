@@ -2,7 +2,7 @@ import React from 'react'
 
 const advantages = [
     {
-        title: "Strategic Logistics",
+        title: "Strategic Location",
         description:
             "Proximity to major grain belts and transport hubs ensures reliable raw material supply and efficient distribution to clients nationwide.",
         points: ["Near Grain Sources", "Rail Connectivity", "Port Access"],

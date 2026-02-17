@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import heroImage from '../assets/images/keyan-banner.jpg';
+import stamp3 from '../assets/images/kpdl-logo.jpg'
 
 const KeyanHero = () => {
     const [activeSlide, setActiveSlide] = useState(0);
@@ -19,7 +20,7 @@ const KeyanHero = () => {
         {
             id: 1,
             image: heroImage,
-            titleBold: "Precision<br/>Distilling at Scale",
+            titleBold: "Finest &<br/> Efficient Distillation at Scale",
             desc:
                 "A premier production facility dedicated to high-volume manufacturing of ENA, Malt Spirits, and Ethanol with uncompromising quality standards.",
             stats: [
@@ -31,6 +32,10 @@ const KeyanHero = () => {
             ctaBtn: "Explore Production Capacity"
         }
     ];
+
+    const handleOpenPPT = () => {
+        window.open("/presentations/company-profile.pptx", "_blank");
+    };
     return (
         <>
             <section className="hero-section">
@@ -43,12 +48,18 @@ const KeyanHero = () => {
                         <img
                             src={slide.image}
                             alt="Hero"
-                            className="hero-img"
+                            className="hero-img-food-grains"
                         />
                         {/* Overlay */}
                         <div className="hero-overlay-potable">
                             <div className="container">
                                 <div className="hero-content ethanolHeroContent">
+                                    {/* STAMPS */}
+                                    <div className="hero-stamps">
+                                        <img src={stamp3} alt="Shreyas Logo" />
+                                        {/* <img src={stamp1} alt="KDPL Logo" /> */}
+                                    </div>
+
                                     {/* TITLE */}
                                     <h1>
                                         <span
@@ -61,7 +72,10 @@ const KeyanHero = () => {
                                     <p>{slide.desc}</p>
 
                                     {/* CTA */}
-                                    <button className="btn hero-btn foodGrainHeroBtn">
+                                    <button
+                                        className="btn hero-btn foodGrainHeroBtn"
+                                        onClick={handleOpenPPT}
+                                    >
                                         {slide.ctaBtn}
                                     </button>
 
@@ -70,7 +84,6 @@ const KeyanHero = () => {
                         </div>
                     </div>
                 ))}
-
             </section>
 
         </>

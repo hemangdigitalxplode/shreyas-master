@@ -5,13 +5,13 @@ const featuresData = [
         id: 1,
         icon: "fa-solid fa-gear",
         title: "Advanced Distillation",
-        desc: "Multi-pressure vacuum distillation technology delivering superior purity levels exceeding 96% for pharmaceutical and beverage applications."
+        desc: "Multi-pressure vaccum distillation technology delivering superior purity levels exceeding expectations for potable spirits and Ethanol blending program."
     },
     {
         id: 2,
         icon: "fa-solid fa-bottle-water",
-        title: "Automated Bottling",
-        desc: "High-speed bottling lines for IMFL and Country Liquor with precision filling, capping, and labeling at industrial scale."
+        title: "World-class Bottling",
+        desc: "IMFL and aseptic prick filling line for country liquors."
     },
     {
         id: 3,

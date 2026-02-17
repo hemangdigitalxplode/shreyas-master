@@ -14,7 +14,7 @@ const B2B = () => {
         {
             icon: "fa-fire-flame-simple",
             badge: "Premium",
-            title: "Grain Neutral Spirit (GNS)",
+            title: "Potable Spirits",
             description:
                 "The perfect base for premium vodka and gin production with exceptional clarity.",
             tags: ["Vodka Base", "Gin Base", "Crystal Clear"],
@@ -22,7 +22,7 @@ const B2B = () => {
         {
             icon: "fa-wheat-awn",
             badge: "Aged",
-            title: "Malt Spirits",
+            title: "IMFL, CL & Ethanol",
             description:
                 "High-quality matured and unmatured malts for whiskey and spirits production.",
             tags: ["Matured Options", "Unmatured Options", "Premium Quality"],
@@ -61,7 +61,7 @@ const B2B = () => {
                             <div key={index} className="col-sm-6 col-lg-3">
                                 <div className="product-card h-100">
                                     {/* Badge */}
-                                    <span className="product-badge">{item.badge}</span>
+                                    {/* <span className="product-badge">{item.badge}</span> */}
 
                                     {/* Icon */}
                                     <div className="icon-box">

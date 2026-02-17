@@ -36,10 +36,10 @@ const GreenerTomorrow = () => {
                     </div>
 
                     {/* Cards */}
-                    <div className="row g-4 mb-5">
+                    <div className="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4 mb-5">
 
                         {/* Card 1 */}
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col">
                             <div className="eco-card eco-card-green h-100">
                                 <span className="badge-tag">Water Positive</span>
                                 <div className="icon-box mb-3">
@@ -54,7 +54,7 @@ const GreenerTomorrow = () => {
                         </div>
 
                         {/* Card 2 */}
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col">
                             <div className="eco-card h-100">
                                 <span className="badge-tag light">Self-Sufficient</span>
                                 <div className="icon-box mb-3">
@@ -69,7 +69,7 @@ const GreenerTomorrow = () => {
                         </div>
 
                         {/* Card 3 */}
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col">
                             <div className="eco-card h-100">
                                 <span className="badge-tag light">Zero Waste</span>
                                 <div className="icon-box mb-3">
@@ -84,7 +84,7 @@ const GreenerTomorrow = () => {
                         </div>
 
                         {/* Card 4 */}
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col">
                             <div className="eco-card h-100">
                                 <span className="badge-tag light">Carbon Neutral</span>
                                 <div className="icon-box mb-3">
@@ -98,7 +98,22 @@ const GreenerTomorrow = () => {
                             </div>
                         </div>
 
+                        {/* ✅ Card 5 (New Added Card) */}
+                        <div className="col">
+                            <div className="eco-card h-100">
+                                <span className="badge-tag light">Corn Oil</span>
+                                <div className="icon-box mb-3">
+                                    <i className="bi bi-recycle"></i>
+                                </div>
+                                <h5 className='fw-bold'>Corn Oil</h5>
+                                <p>
+                                    Client need to provide the content for this part.
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
+
 
                     {/* Bottom Stats Bar */}
                     <div className="stats-bar text-center">
@@ -121,7 +136,7 @@ const GreenerTomorrow = () => {
 
                             <div className="col-md-3 stat-item border-0">
                                 <h3>100%</h3>
-                                <p>Waste Diverted</p>
+                                <p>DDGS & Corn Oil</p>
                             </div>
 
                         </div>
