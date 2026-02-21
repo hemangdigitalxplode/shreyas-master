@@ -7,41 +7,43 @@ import RenewalStrength from '../components/RenewalStrength';
 
 const Strength = () => {
 
-    return (
-        <>
-            {/* Banner Section */}
-            <div className='heroBannerContainer'>
-                <StrengthHero />
-            </div>
+return(
 
-            {/* Process Section */}
+<>
 
-            <div className="container">
-                <ProcessSectionStrength />
-            </div>
+{/* Banner Section */}
+ <div className='heroBannerContainer'>
+<StrengthHero />
+ </div>
 
+{/* Process Section */}
 
-            <div className="container-fluid">
-                <PortfolioStrength />
-            </div>
-
-            <div className="container">
-                <TechnicalSecStrength />
-            </div>
-
-            <div className="container-fluid">
-                <TestingLaboratoryStrength />
-            </div>
+<div className="container">
+<ProcessSectionStrength />
+</div>
 
 
-            <div className="container-fluid">
-                <RenewalStrength />
-            </div>
+<div className="container-fluid">
+<PortfolioStrength />
+</div>
+
+<div className="container">
+<TechnicalSecStrength />
+</div>
+
+<div className="container-fluid">
+<TestingLaboratoryStrength />
+</div>
 
 
-        </>
+<div className="container-fluid">
+<RenewalStrength />
+</div>
 
-    )
+
+</>
+
+)
 
 }
 

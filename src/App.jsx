@@ -17,7 +17,11 @@ import PrecisionDistelleriesScalling from "./Pages/precisionDistelleriesScalling
 import Keyandistelleries from "./Pages/keyandistelleries";
 import Pioneering from "./Pages/pioneering";
 import Strength from "./Pages/Strength";
-import EmpoweringEcosystem from "./Pages/empoweringEcosystem";
+import SustainabilityHub from "./Pages/SustainabilityHub";
+import GreenInitiatives from "./Pages/GreenInitiatives";
+import CarbonFootprint from "./Pages/CarbonFootprint";
+import Esg from "./Pages/Esg";
+import PoweringCarbonNeutral from "./Pages/PoweringCarbonNeutral";
 
 const App = () => {
   return (
@@ -42,7 +46,11 @@ const App = () => {
             <Route path="/keyan-distelleries-pvt-ltd" element={<Keyandistelleries />} />
             <Route path="/fueling-the-future" element={<Pioneering />} />
             <Route path="/our-strength" element={<Strength />} />
-            <Route path="/empowering-our-ecosystem" element={<EmpoweringEcosystem />} />
+            <Route path="/sustainability-hub" element={<SustainabilityHub />} />
+            <Route path="/green-initiatives" element={<GreenInitiatives />} />
+            <Route path="/carbon-footprint" element={<CarbonFootprint />} />
+            <Route path="/esg" element={<Esg />} />
+            <Route path="/powering-a-carbon-neutral-future" element={<PoweringCarbonNeutral />} />
           </Routes>
         </main>
         {/* Footer – */}
