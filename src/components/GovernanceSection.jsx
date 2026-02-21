@@ -1,12 +1,12 @@
 import React from "react";
-import UserIcon from "../assets/images/Users.png"
+import UserIcon from "../assets/images/users.png"
 import Ethics from "../assets/images/ethics.png"
 import Heart from "../assets/images/heart-n.png"
 
 const GovernanceSection = () => {
   return (
     <section className="govSectionWrapperUnique">
-      
+
       <div className="govSectionContainerUnique">
 
         <div className="govSectionHeaderBlockUnique">
@@ -24,7 +24,7 @@ const GovernanceSection = () => {
             <div className="govBoardCardOneUnique">
               <div className="govBoardIconBoxOneUnique">
                 <span className="govBoardIconOneUnique">
-                    <img className="w-100" src={UserIcon} />
+                  <img className="w-100" src={UserIcon} />
                 </span>
               </div>
               <div className="govBoardTextBlockOneUnique">
@@ -37,8 +37,8 @@ const GovernanceSection = () => {
 
             <div className="govBoardCardTwoUnique">
               <div className="govBoardIconBoxTwoUnique">
-                <span className="govBoardIconTwoUnique"> 
-                    <img className="w-100" src={UserIcon} /></span>
+                <span className="govBoardIconTwoUnique">
+                  <img className="w-100" src={UserIcon} /></span>
               </div>
               <div className="govBoardTextBlockTwoUnique">
                 <h4 className="govBoardNameTwoUnique">Priya Sharma</h4>
@@ -51,7 +51,7 @@ const GovernanceSection = () => {
             <div className="govBoardCardThreeUnique">
               <div className="govBoardIconBoxThreeUnique">
                 <span className="govBoardIconThreeUnique">
-                     <img className="w-100" src={UserIcon} /></span>
+                  <img className="w-100" src={UserIcon} /></span>
               </div>
               <div className="govBoardTextBlockThreeUnique">
                 <h4 className="govBoardNameThreeUnique">Anand Kulkarni</h4>
@@ -69,15 +69,15 @@ const GovernanceSection = () => {
           <div className="govEthicsCardUnique">
             <div className="govEthicsIconBoxUnique">
               <span className="govEthicsIconUnique">
-                  <img className="w-100" src={Ethics} /></span>
-        
+                <img className="w-100" src={Ethics} /></span>
+
             </div>
             <div className="govEthicsContentUnique">
               <h4 className="govEthicsTitleUnique">Ethics Committee</h4>
               <p className="govEthicsDescriptionUnique">
-                Our independent Ethics Committee oversees ESG compliance and 
-                ethical conduct across all business divisions. They conduct 
-                quarterly reviews and maintain a zero-tolerance policy for 
+                Our independent Ethics Committee oversees ESG compliance and
+                ethical conduct across all business divisions. They conduct
+                quarterly reviews and maintain a zero-tolerance policy for
                 governance violations.
               </p>
             </div>
@@ -86,14 +86,14 @@ const GovernanceSection = () => {
           <div className="govCoreValuesCardUnique">
             <div className="govCoreValuesIconBoxUnique">
               <span className="govCoreValuesIconUnique">
-                  <img className="w-100" src={Heart} />
+                <img className="w-100" src={Heart} />
               </span>
             </div>
             <div className="govCoreValuesContentUnique">
               <h4 className="govCoreValuesTitleUnique">Core Values</h4>
               <p className="govCoreValuesDescriptionUnique">
-                Governance is woven into every link of the Shreyas Group value 
-                chain — from responsible sourcing and ethical manufacturing to 
+                Governance is woven into every link of the Shreyas Group value
+                chain — from responsible sourcing and ethical manufacturing to
                 transparent stakeholder communication and community investment.
               </p>
             </div>
