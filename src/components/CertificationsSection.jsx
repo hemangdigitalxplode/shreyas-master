@@ -63,7 +63,7 @@ const CertificationsSection = () => {
 
           <p className="cert-text">
             Every batch is tested internally and verified by international
-            agencies such as SGS, Intertek, and Bureau Veritas.
+            agencies.
           </p>
 
           <button className="cert-btn">Our Quality Commitment</button>

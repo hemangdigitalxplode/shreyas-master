@@ -60,7 +60,7 @@ const Footer = () => {
                                 <li>Shreyas Sortex Industries Private Limited</li>
                                 <li>Keyaan Distilleries Private Limited</li>
                                 <li>Shreyas Distilleries & Energy Private Limited</li>
-                                <li>Shreyas Re-energy Pvt Ltd.</li>
+                                <li>Shreyas RE Energy Pvt Ltd.</li>
                                 <li>Shreyas Steel Pvt Ltd.</li>
                                 <li>Shreyas Airline Pvt Ltd.</li>
                             </ul>

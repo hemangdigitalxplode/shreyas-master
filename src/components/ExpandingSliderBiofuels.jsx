@@ -32,14 +32,14 @@ const slidesData = [
         img: Slider4,
         title: "Title",
         boxTitle: "High Capacity Manufacturing",
-        boxSubTitle: "Export to 30+ Countries",
+        boxSubTitle: "Export to 40+ Countries",
     },
     {
         id: 4,
         img: Slider5,
         title: "Title",
         boxTitle: "High Capacity Manufacturing",
-        boxSubTitle: "Export to 30+ Countries",
+        boxSubTitle: "Export to 40+ Countries",
     },
 ];
 
