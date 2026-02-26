@@ -46,14 +46,6 @@ const Footer = () => {
                                 </li>
 
                                 <li>
-                                    <a href="#">About Us</a>
-                                </li>
-
-                                <li>
-                                    <a href="/food-grains">Businesses</a>
-                                </li>
-
-                                <li>
                                     <a href="/delivery-purity">Manufacturing</a>
                                 </li>
 
@@ -71,10 +63,6 @@ const Footer = () => {
 
                                 <li>
                                     <a href="/feeding-the-world">Exports</a>
-                                </li>
-
-                                <li>
-                                    <a href="/our-journey">Careers</a>
                                 </li>
                             </ul>
                         </div>
@@ -128,7 +116,11 @@ const Footer = () => {
                 {/* BOTTOM BAR */}
                 <div className="footer-bottom">
                     <div className="container d-flex justify-content-between flex-wrap">
-                        <p>Copyright © Shreyas Group of Companies</p>
+                        <div className="d-flex gap-2">
+                            <p>Copyright © Shreyas Group of Companies</p> <span>|</span>
+                            <p>Design & Developed by <a className="text-decoration-underline text-white" target="_blank" href="https://www.digitalxplode.com/">Digital Xplode</a>
+                            </p>
+                        </div>
 
                         <div className="footer-links">
                             <span>Legal Disclaimer</span>

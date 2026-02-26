@@ -1,5 +1,5 @@
 import React from "react";
-import mapImage from '../assets/images/map2.png'
+import mapImage from '../assets/images/updated-map.png'
 
 const GlobalSection = () => {
     return (

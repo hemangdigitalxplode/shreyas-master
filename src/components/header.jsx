@@ -18,7 +18,6 @@ const Header = () => {
                             className="me-2"
                         />
                     </a>
-
                     {/* Mobile Toggle */}
                     <button
                         className="navbar-toggler"
@@ -74,6 +73,16 @@ const Header = () => {
                                     <li>
                                         <a className="dropdown-item" href="/distrills-ethanol">
                                             Distilleries & Breweries
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a className="dropdown-item" href="/our-strength">
+                                            Shreyas Steel Pvt Ltd
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a className="dropdown-item" href="/our-strength">
+                                            Shreyas Airline Pvt Ltd.
                                         </a>
                                     </li>
                                 </ul>
