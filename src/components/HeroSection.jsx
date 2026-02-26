@@ -18,10 +18,14 @@ const HeroSection = () => {
         { value: "40+", label: "Export Countries" },
         { value: "Zero", label: "Discharge Operations" },
       ],
+      button: {
+        label: "Know More",
+        link: "/food-grains",
+      },
     },
     {
       id: 2,
-      image: heroImage2, // replace later
+      image: heroImage2,
       titleBold: "State of the Art Manufacturing",
       titleSub: "Infrastructure Excellence",
       desc:
@@ -32,20 +36,28 @@ const HeroSection = () => {
         { value: "ISO", label: "Certified Plants" },
         { value: "Zero", label: "Waste Policy" },
       ],
+      button: {
+        label: "Know More",
+        link: "/delivery-purity",
+      },
     },
     {
       id: 3,
-      image: heroImage3, // replace later
-      titleBold: "State of the Art Manufacturing",
-      titleSub: "Infrastructure Excellence",
+      image: heroImage3,
+      titleBold: "Sustainable & Responsible",
+      titleSub: "Future Focused Growth",
       desc:
-        "World-class Japanese milling, advanced sortex systems, and scalable infrastructure built for quality and efficiency.",
+        "Committed to zero discharge operations, renewable energy adoption, and global quality benchmarks.",
       stats: [
-        { value: "100%", label: "Automation" },
-        { value: "Japanese", label: "Sortex Tech" },
-        { value: "ISO", label: "Certified Plants" },
-        { value: "Zero", label: "Waste Policy" },
+        { value: "Green", label: "Energy Use" },
+        { value: "Zero", label: "Liquid Discharge" },
+        { value: "Eco", label: "Friendly Systems" },
+        { value: "Global", label: "Compliance" },
       ],
+      button: {
+        label: "Know More",
+        link: "/delivery-purity",
+      },
     },
   ];
 
@@ -97,9 +109,9 @@ const HeroSection = () => {
                   ))}
                 </div>
 
-                <button className="btn hero-btn">
-                  Know More
-                </button>
+                <a href={slide.button.link} className="btn hero-btn">
+                  {slide.button.label}
+                </a>
 
               </div>
             </div>

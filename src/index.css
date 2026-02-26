@@ -25,6 +25,11 @@ body {
   font-family: var(--font-family-root);
 }
 
+a {
+  text-decoration: none !important;
+  color: #000;
+}
+
 .nav-link {
   position: relative;
   font-size: 14px;
@@ -5882,4 +5887,60 @@ h2 {
     left: 50% !important;
     transform: translate(-50%, 0);
   }
+}
+
+.custom-dropdown {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 0;
+  min-width: 220px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.custom-dropdown .dropdown-item {
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.custom-dropdown .dropdown-item:not(:last-child) {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background-color: #f8f9fa;
+  padding-left: 25px;
+}
+
+.age-overlay {
+  position: fixed;
+  inset: 0;
+  backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.age-modal {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.age-modal h4 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.age-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
 }

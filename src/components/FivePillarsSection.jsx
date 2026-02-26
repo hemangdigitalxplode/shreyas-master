@@ -23,26 +23,26 @@ const FivePillarsSection = () => {
 
           <div className="fp-card">
             <div className="fp-icon">
-              <img className="w-100" src={Green}/>
+              <img className="w-100" src={Green} />
             </div>
             <h3>Green Initiatives</h3>
             <p>
               Our journey in waste management and eco-friendly packaging.
             </p>
-            <a href="#">Read More</a>
+            <a href="/green-initiatives">Read More</a>
           </div>
 
           <div className="fp-card">
-            <div className="fp-icon"><img className="w-100" src={Carbon}/></div>
+            <div className="fp-icon"><img className="w-100" src={Carbon} /></div>
             <h3>Carbon Footprint</h3>
             <p>
               Our journey in waste management and eco-friendly packaging.
             </p>
-            <a href="#">Read More</a>
+            <a href="/carbon-footprint">Read More</a>
           </div>
 
           <div className="fp-card">
-            <div className="fp-icon fp-icon-yellow"><img className="w-100" src={Renewable}/></div>
+            <div className="fp-icon fp-icon-yellow"><img className="w-100" src={Renewable} /></div>
             <h3>Renewable Energy</h3>
             <p>
               Transitioning our manufacturing hubs to 100% clean energy.
@@ -56,16 +56,16 @@ const FivePillarsSection = () => {
         <div className="fp-row fp-row-bottom">
 
           <div className="fp-card">
-            <div className="fp-icon"><img className="w-100" src={ESG}/></div>
+            <div className="fp-icon"><img className="w-100" src={ESG} /></div>
             <h3>ESG Commitments</h3>
             <p>
               Transparent reporting on Environmental, Social, and Governance goals.
             </p>
-            <a href="#">Read More</a>
+            <a href="/esg">Read More</a>
           </div>
 
           <div className="fp-card">
-            <div className="fp-icon"><img className="w-100" src={Social}/></div>
+            <div className="fp-icon"><img className="w-100" src={Social} /></div>
             <h3>Social Responsibility</h3>
             <p>
               Empowering the communities where we live and work.

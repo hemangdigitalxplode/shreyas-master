@@ -41,15 +41,41 @@ const Footer = () => {
                         <div className="col-lg-2 col-md-6">
                             <h6>Quick Links</h6>
                             <ul>
-                                <li>Home</li>
-                                <li>About Us</li>
-                                <li>Businesses</li>
-                                <li>Manufacturing</li>
-                                <li>Sustainability</li>
-                                <li>Quality & Certifications</li>
-                                <li>Gallery</li>
-                                <li>Exports</li>
-                                <li>Careers</li>
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">About Us</a>
+                                </li>
+
+                                <li>
+                                    <a href="/food-grains">Businesses</a>
+                                </li>
+
+                                <li>
+                                    <a href="/delivery-purity">Manufacturing</a>
+                                </li>
+
+                                <li>
+                                    <a href="/sustainability-hub">Sustainability</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Quality & Certifications</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Gallery</a>
+                                </li>
+
+                                <li>
+                                    <a href="/feeding-the-world">Exports</a>
+                                </li>
+
+                                <li>
+                                    <a href="/our-journey">Careers</a>
+                                </li>
                             </ul>
                         </div>
 
@@ -57,11 +83,26 @@ const Footer = () => {
                         <div className="col-lg-3 col-md-6">
                             <h6>Businesses</h6>
                             <ul>
-                                <li>Shreyas Sortex Industries Private Limited</li>
-                                <li>Keyaan Distilleries Private Limited</li>
-                                <li>Shreyas Distilleries & Energy Private Limited</li>
+                                <li>
+                                    <a href="/food-grains">
+                                        Shreyas Sortex Industries Private Limited
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/keyan-distelleries-pvt-ltd">
+                                        Keyaan Distilleries Private Limited
+                                    </a>
+                                </li>
+                                <a href="/distrills-ethanol">
+                                    <li>Shreyas Distilleries & Energy Private Limited</li>
+                                </a>
+
                                 <li>Shreyas RE Energy Pvt Ltd.</li>
-                                <li>Shreyas Steel Pvt Ltd.</li>
+
+                                <a className="text-decoration-none" href="/our-strength">
+                                    <li >Shreyas Steel Pvt Ltd.</li>
+                                </a>
+
                                 <li>Shreyas Airline Pvt Ltd.</li>
                             </ul>
                         </div>
@@ -71,7 +112,10 @@ const Footer = () => {
                             <h6>About Us</h6>
                             <ul>
                                 <li>Newsroom</li>
-                                <li>Careers</li>
+                                <a href="/our-journey">
+                                    <li>Careers</li>
+                                </a>
+
                                 <li>Downloads</li>
                                 <li>Contact Us</li>
                                 <li>Awards</li>

@@ -23,13 +23,14 @@ import CarbonFootprint from "./Pages/CarbonFootprint";
 import Esg from "./Pages/Esg";
 import PoweringCarbonNeutral from "./Pages/PoweringCarbonNeutral";
 import ShreyasHome from "./components/ShreyasHome";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <div className="">
-
       {/* Header –*/}
       <BrowserRouter>
+        <ScrollToTop />
         <Header />
         {/* Routes */}
         <main className="">
@@ -59,7 +60,6 @@ const App = () => {
         </main>
         {/* Footer – */}
         <Footer />
-
       </BrowserRouter>
 
 

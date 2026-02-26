@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import heroImage from '../assets/images/foodGrainsHero.png';
-import stamp3 from '../assets/images/shreyas-logo.png'
+import stamp3 from '../assets/images/shreyas-logo.jpeg'
 
 
 const FoodGrainsHero = () => {
