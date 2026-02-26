@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from '../assets/images/logo.png';
+import { FaChevronDown } from "react-icons/fa";
 
 const Header = () => {
 
@@ -45,13 +46,13 @@ const Header = () => {
                             {/* BUSINESS DROPDOWN */}
                             <li className="nav-item dropdown">
                                 <a
-                                    className="nav-link dropdown-toggle"
+                                    className="nav-link d-flex align-items-center gap-1"
                                     href="#"
                                     role="button"
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
                                 >
-                                    Business
+                                    Business <FaChevronDown size={12} />
                                 </a>
 
                                 <ul className="dropdown-menu custom-dropdown text-start">

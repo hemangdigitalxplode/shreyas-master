@@ -18,9 +18,12 @@ const CareerBanner = () => {
             Be part of a fast-growing global rice enterprise driven
             by quality and innovation.
           </p>
-          <button className="career-banner-btn">
-            Join the Team
-          </button>
+          <a href="/our-journey">
+            <button className="career-banner-btn">
+              Join the Team
+            </button>
+          </a>
+
         </div>
 
       </div>

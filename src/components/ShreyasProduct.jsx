@@ -1,4 +1,11 @@
 import React from 'react'
+import img1 from '../assets/images/bajra.jpg'
+import img2 from '../assets/images/basmati-rice.jpg'
+import img3 from '../assets/images/dal-arhar.jpg'
+import img4 from '../assets/images/masoori-rice.jpg'
+import img5 from '../assets/images/moong-dal.jpg'
+import img6 from '../assets/images/raagi.jpg'
+import img7 from '../assets/images/wheat.jpg'
 
 
 const products = [
@@ -9,7 +16,7 @@ const products = [
         moisture: "<12%",
         purity: "99%",
         origin: "India",
-        img: "https://via.placeholder.com/400x250",
+        img: img2,
     },
     {
         id: 2,
@@ -18,7 +25,7 @@ const products = [
         moisture: "<12%",
         purity: "99%",
         origin: "India",
-        img: "https://via.placeholder.com/400x250",
+        img: img7,
     },
     {
         id: 3,
@@ -27,7 +34,7 @@ const products = [
         moisture: "<10%",
         purity: "99%",
         origin: "India",
-        img: "https://via.placeholder.com/400x250",
+        img: img5,
     },
     {
         id: 4,
@@ -36,7 +43,7 @@ const products = [
         moisture: "<10%",
         purity: "99%",
         origin: "India",
-        img: "https://via.placeholder.com/400x250",
+        img: img3,
     },
     {
         id: 5,
@@ -45,7 +52,7 @@ const products = [
         moisture: "<12%",
         purity: "98%",
         origin: "India",
-        img: "https://via.placeholder.com/400x250",
+        img: img6,
     },
     {
         id: 6,
@@ -54,7 +61,7 @@ const products = [
         moisture: "<11%",
         purity: "97.5%",
         origin: "India",
-        img: "https://via.placeholder.com/400x250",
+        img: img1,
     },
     {
         id: 7,
@@ -63,18 +70,18 @@ const products = [
         moisture: "<13%",
         purity: "98%",
         origin: "India",
-        img: "https://via.placeholder.com/400x250",
+        img: img4,
     },
 ];
 
 const ShreyasProduct = () => {
     return (
         <>
-            <section className="products-section">
-                <div className="container">
-                    {/* Filters */}
-                    <div className="products-top">
-                        <div className="filters">
+            <section className="grain-products-section">
+                <div className="grain-container">
+
+                    <div className="grain-top">
+                        <div className="grain-filters">
                             {["All", "Rice", "Wheat", "Pulses", "Millets"].map((f, i) => (
                                 <button key={i} className={i === 0 ? "active" : ""}>
                                     {f}
@@ -82,21 +89,20 @@ const ShreyasProduct = () => {
                             ))}
                         </div>
 
-                        <select className="sort">
+                        <select className="grain-sort">
                             <option>Sort by: Popularity</option>
                             <option>Newest</option>
                             <option>Price Low to High</option>
                         </select>
                     </div>
 
-                    {/* Cards */}
-                    <div className="products-grid">
+                    <div className="grain-grid">
                         {products.map((p) => (
-                            <div className="product-card" key={p.id}>
+                            <div className="grain-card" key={p.id}>
                                 <img src={p.img} alt={p.title} />
 
-                                <div className="product-body">
-                                    <span className="badge">{p.category}</span>
+                                <div className="grain-body">
+                                    <span className="grain-badge">{p.category}</span>
 
                                     <h3>{p.title}</h3>
 
@@ -106,15 +112,20 @@ const ShreyasProduct = () => {
                                         <li>Origin: {p.origin}</li>
                                     </ul>
 
-                                    <button className="btn light">View Specifications</button>
-                                    <button className="btn primary">Inquiry / Get Quote</button>
+                                    <button className="grain-btn grain-light">
+                                        View Specifications
+                                    </button>
+
+                                    <button className="grain-btn grain-primary">
+                                        Inquiry / Get Quote
+                                    </button>
                                 </div>
                             </div>
                         ))}
                     </div>
+
                 </div>
             </section>
-
         </>
     )
 }

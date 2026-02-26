@@ -32,9 +32,12 @@ const ProductRange = () => {
                             </p>
 
                             <div className="suhela-actions">
-                                <button className="suhela-btn suhela-btn-primary">
-                                    Explore More
-                                </button>
+                                <a href="/shreyas-company">
+                                    <button className="suhela-btn suhela-btn-primary">
+                                        Explore More
+                                    </button>
+                                </a>
+
                                 <button className="suhela-btn suhela-btn-secondary">
                                     Discover SUHELA
                                 </button>

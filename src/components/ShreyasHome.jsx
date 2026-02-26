@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import heroImage from '../assets/images/powering-carbon-banner.png';
+import heroImage from '../assets/images/shreyas-home-banner.jpg';
 
 const ShreyasHome = () => {
     const [activeSlide, setActiveSlide] = useState(0);

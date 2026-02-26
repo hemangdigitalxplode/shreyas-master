@@ -1,6 +1,8 @@
 import React from 'react'
 import ShreyasHome from '../components/ShreyasHome'
 import ShreyasProduct from '../components/ShreyasProduct'
+import WhyChooseSection from '../components/WhyChooseSection'
+import BulkOrderInquiry from '../components/BulkOrderInquiry'
 
 const ShreyasCompanyPage = () => {
     return (
@@ -13,6 +15,14 @@ const ShreyasCompanyPage = () => {
             <div className="">
 
                 <ShreyasProduct />
+            </div>
+
+            <div className="whySection">
+                <WhyChooseSection />
+            </div>
+
+            <div className="bulkImportEnq">
+                <BulkOrderInquiry />
             </div>
         </>
     )

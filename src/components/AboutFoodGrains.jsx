@@ -33,18 +33,21 @@ const AboutFoodGrains = () => {
                             </h1>
 
                             <h6 className="aboutGrainsEyebrow my-4">
-                                M/s Shreyas Sortex Industries Pvt. Ltd. (SSIPL) is a professionally managed Private Limited
+                                M/s Shreyas Sortex Industries Pvt. Ltd. is a professionally managed Private Limited
                                 Company with its registered office at House No. 301/401, Sahara Uphar-Type-2, Near Udaya
                                 Public School, Rustampur, Gorakhpur, Uttar Pradesh–273001.
                             </h6>
 
                             <p>
-                                Established in 2014 in District Ballia, Uttar Pradesh, SSIPL was founded under the visionary
+                                Established in 2014 in District Ballia, Uttar Pradesh, Shreyas Sortex was founded under the visionary
                                 leadership of Mr. Vinay Kumar Singh, Managing Director, whose entrepreneurial drive and strong
                                 industry insight have propelled the company into the forefront of the Indian rice sector.
                             </p>
 
-                            <button className="btn aboutBtn mt-3">Explore More</button>
+                            <a href="/shreyas-company">
+                                <button className="btn aboutBtn mt-3">Explore More</button>
+                            </a>
+
                         </div>
                     </div>
                 </div>

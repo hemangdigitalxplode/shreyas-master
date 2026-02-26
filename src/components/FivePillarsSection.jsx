@@ -47,7 +47,7 @@ const FivePillarsSection = () => {
             <p>
               Transitioning our manufacturing hubs to 100% clean energy.
             </p>
-            <a href="#">Read More</a>
+            <a href="/powering-a-carbon-neutral-future">Read More</a>
           </div>
 
         </div>

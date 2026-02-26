@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import heroImage from '../assets/images/foodGrainsHero.png';
-import stamp3 from '../assets/images/shreyas-logo.jpeg'
+import stamp3 from '../assets/images/shreyas-logo-removebg-preview.png'
 
 
 const FoodGrainsHero = () => {
@@ -70,7 +70,7 @@ const FoodGrainsHero = () => {
                                 <div className="hero-content ethanolHeroContent">
 
                                     {/* STAMPS */}
-                                    <div className="hero-stamps">
+                                    <div className="hero-stamps-food-grains">
                                         <img src={stamp3} alt="Shreyas Logo" />
                                         {/* <img src={stamp1} alt="KDPL Logo" /> */}
                                     </div>

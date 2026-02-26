@@ -22,7 +22,8 @@ import GreenInitiatives from "./Pages/GreenInitiatives";
 import CarbonFootprint from "./Pages/CarbonFootprint";
 import Esg from "./Pages/Esg";
 import PoweringCarbonNeutral from "./Pages/PoweringCarbonNeutral";
-import ShreyasHome from "./components/ShreyasHome";
+// import ShreyasHome from "./components/ShreyasHome";
+import ShreyasCompanyPage from './Pages/ShreyasCompanyPage'
 import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
@@ -55,7 +56,7 @@ const App = () => {
             <Route path="/powering-a-carbon-neutral-future" element={<PoweringCarbonNeutral />} />
 
 
-            <Route path="/shreyas-company" element={<ShreyasHome />} />
+            <Route path="/shreyas-company" element={<ShreyasCompanyPage />} />
           </Routes>
         </main>
         {/* Footer – */}
