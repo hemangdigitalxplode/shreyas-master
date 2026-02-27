@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import heroImage from '../assets/images/ethanol-hero.jpg';
 import stamp1 from '../assets/images/kpdl-logo.jpg'
-import stamp2 from '../assets/images/shreyas-banner-logo.jpg'
+import stamp2 from '../assets/images/shreyas-logo-removebg-preview.png'
 
 const EthanolHeroSection = () => {
     const [activeSlide, setActiveSlide] = useState(0);
@@ -53,7 +53,7 @@ const EthanolHeroSection = () => {
                                 <div className="hero-content ethanolHeroContent">
 
                                     {/* STAMPS */}
-                                    <div className="hero-stamps">
+                                    <div className="hero-stamps-ethanol-dist">
                                         <img src={stamp1} alt="KDPL Logo" />
                                         <img src={stamp2} alt="Shreyas Logo" />
                                     </div>

@@ -224,13 +224,6 @@ const Home = () => {
                     <ExpandableCardSlider />
                 </div>
             </div>
-
-
-
-
-
-
-
         </>
     )
 

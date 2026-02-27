@@ -11,7 +11,7 @@ const slidesData = [
         img: Slider1,
         title: "Title",
         boxTitle: "State of the Art Manufacturing Infrastructure",
-        boxSubTitle: "Japanese Satake Milling & Sortex",
+        boxSubTitle: "<b>World Class</b> Distillation",
     },
     {
         id: 2,
@@ -68,9 +68,8 @@ const ExpandingSlider = () => {
                             <div className="info-left">
                                 {slide.boxTitle}
                             </div>
-                            <div className="info-right">
-                                {slide.boxSubTitle}
-                            </div>
+                            <div className="info-right" dangerouslySetInnerHTML={{ __html: slide.boxSubTitle }} />
+
                         </div>
                     )}
                 </div>

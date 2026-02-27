@@ -10,6 +10,7 @@ const sliderData = [
         desc:
             "Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients.",
         img: CardImage1,
+        href: '/our-journey'
     },
     {
         id: 2,
@@ -17,6 +18,7 @@ const sliderData = [
         desc:
             "The Witcher 3 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients.",
         img: CardImage2,
+        href: ''
     },
     {
         id: 3,
@@ -24,6 +26,7 @@ const sliderData = [
         desc:
             "RDR 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the Ancients.",
         img: CardImage3,
+        href: ''
     },
 ];
 
@@ -49,7 +52,9 @@ const ExpandableCardSlider = () => {
                         onClick={() => setActiveId(item.id)}
                     >
                         <div className="item-desc">
-                            <h3 className="journerCardHeading">{item.title}</h3>
+                            <a href={item.href} className="text-white">
+                                <h3 className="journerCardHeading">{item.title}</h3>
+                            </a>
                             {/* <p>{item.desc}</p> */}
                         </div>
                     </div>

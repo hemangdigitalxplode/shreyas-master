@@ -39,7 +39,7 @@ const Header = () => {
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About Us</a>
+                                <a className="nav-link" href="https://mockup4clients.com/mockups/shreyas/about-us.php">About Us</a>
                             </li>
 
                             {/* BUSINESS DROPDOWN */}
@@ -97,7 +97,7 @@ const Header = () => {
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Quality & Certifications</a>
+                                <a className="nav-link" href="https://mockup4clients.com/mockups/shreyas/quality-cert.php">Quality & Certifications</a>
                             </li>
 
                             <li className="nav-item">
@@ -113,7 +113,7 @@ const Header = () => {
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contact Us</a>
+                                <a className="nav-link" href="https://mockup4clients.com/mockups/shreyas/contact-us.php">Contact Us</a>
                             </li>
 
                         </ul>

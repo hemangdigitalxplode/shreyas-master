@@ -69,7 +69,7 @@ const Footer = () => {
 
                         {/* BUSINESSES */}
                         <div className="col-lg-3 col-md-6">
-                            <h6>Businesses</h6>
+                            <h6>List of Group Companies</h6>
                             <ul>
                                 <li>
                                     <a href="/food-grains">
@@ -91,7 +91,7 @@ const Footer = () => {
                                     <li >Shreyas Steel Pvt Ltd.</li>
                                 </a>
 
-                                <li>Shreyas Airline Pvt Ltd.</li>
+                                {/* <li>Shreyas Airline Pvt Ltd.</li> */}
                             </ul>
                         </div>
 

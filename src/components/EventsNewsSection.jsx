@@ -19,7 +19,7 @@ const EventsNewsSection = () => {
 
                         <div className="event-content">
                             <span className="tag">EVENTS</span>
-                            <h3>Industry <br /> Platforms</h3>
+                            <h3>Industry <br /> Platform</h3>
 
                             <p>
                                 Engaging with global textile forums, exhibitions, and trade
