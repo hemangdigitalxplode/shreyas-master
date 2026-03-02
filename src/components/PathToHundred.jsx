@@ -2,13 +2,13 @@ import React from "react";
 
 const timelineData = [
   {
-    year: "2015",
-    text: "First solar installation",
+    year: "2014",
+    text: "Energy Efficient Bioler Installation",
     side: "left",
     filled: true,
   },
   {
-    year: "2018",
+    year: "2024",
     text: "Biomass boilers operational",
     side: "right",
   },
@@ -19,13 +19,18 @@ const timelineData = [
   },
   {
     year: "2025",
-    text: "Wind energy integration",
+    text: "Solar energy integration",
     side: "right",
+  },
+  {
+    year: "2026",
+    text: "2GW Solar Bess Programe",
+    side: "left",
   },
   {
     year: "2030",
     text: "Full Carbon Neutrality",
-    side: "left",
+    side: "right",
   },
 ];
 
@@ -44,7 +49,7 @@ const PathToHundred = () => {
         {/* Progress */}
         <div className="pth-progress-wrapper">
           <div className="pth-progress-left">
-            <span className="pth-label">Renewable Energy Usage</span>
+            <span className="pth-label">Renewable Energy Conservation</span>
             <h3 className="pth-percentage">73%</h3>
           </div>
 

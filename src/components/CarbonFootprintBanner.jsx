@@ -4,7 +4,7 @@ import heroImage from '../assets/images/carbon-footprint-banner.png';
 const CarbonFootprintBanner = () => {
     const [activeSlide, setActiveSlide] = useState(0);
 
-    
+
     useEffect(() => {
         const interval = setInterval(() => {
             setActiveSlide((prev) =>
@@ -19,7 +19,7 @@ const CarbonFootprintBanner = () => {
         {
             id: 1,
             image: heroImage,
-            titleBold: "Our Path to Net Zero",
+            titleBold: "Our Path to Net Zero Carbon Emission",
             desc: "Leveraging smart technology and energy efficiency to decouple our growth from carbon emissions.",
             ctaBtn: "Our Energy Portfolio"
         }
@@ -56,7 +56,7 @@ const CarbonFootprintBanner = () => {
                                     <p>{slide.desc}</p>
 
                                     {/* CTA */}
-                                    <button className="btn hero-btn foodGrainHeroBtn">
+                                    <button className="btn hero-btn foodGrainHeroBtn d-none">
                                         {slide.ctaBtn}
                                     </button>
 

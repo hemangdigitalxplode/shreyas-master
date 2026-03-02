@@ -38,8 +38,36 @@ const Header = () => {
                                 <a className="nav-link active" href="/">Home</a>
                             </li>
 
-                            <li className="nav-item">
-                                <a className="nav-link" href="https://mockup4clients.com/mockups/shreyas/about-us.php">About Us</a>
+                            <li className="nav-item dropdown">
+                                <a
+                                    className="nav-link d-flex align-items-center gap-1"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    About Us <FaChevronDown size={12} />
+                                </a>
+
+                                <ul className="dropdown-menu custom-dropdown text-start">
+                                    <li>
+                                        <a
+                                            className="dropdown-item"
+                                            href="https://mockup4clients.com/mockups/shreyas/about-us.php"
+                                        >
+                                            About Us
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a
+                                            className="dropdown-item"
+                                            href="/csr-activities"
+                                        >
+                                            CSR Activities
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
 
                             {/* BUSINESS DROPDOWN */}
@@ -75,16 +103,16 @@ const Header = () => {
                                             Distilleries & Breweries
                                         </a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a className="dropdown-item" href="/our-strength">
                                             Shreyas Steel Pvt Ltd
                                         </a>
-                                    </li>
-                                    <li>
+                                    </li> */}
+                                    {/* <li>
                                         <a className="dropdown-item" href="/our-strength">
                                             Shreyas Airline Pvt Ltd.
                                         </a>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </li>
 

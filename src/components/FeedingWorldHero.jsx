@@ -26,7 +26,7 @@ const FeedingWorldHero = () => {
                 { value: "7+MW", label: "Integrated Power Capacity" },
                 { value: "100% Renewable", label: "Biofuel-Driven Energy" },
                 { value: "Multi-Fuel", label: "Biomass Flexiblity" },
-                { value: "ZLow Emission", label: "Clean Energy Systems" },
+                { value: "Zero Emission", label: "Clean Energy Systems" },
             ],
             ctaBtn: "Download Export Profile"
         }

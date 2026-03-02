@@ -21,12 +21,12 @@ const DeliveringHero = () => {
             image: heroImage,
             titleBold: "Engineering Excellence,<br/>Delivering Purity.",
             desc:
-                "Leveraging global technology and rigorous standards to redefine integrated rice processing and industrial manufacturing.",
+                "Leveraging global technology and rigorous standards to redefine integrated processing and industrial manufacturing to meeting the Global Standards.",
             stats: [
                 { value: "7+MW", label: "Integrated Power Capacity" },
                 { value: "100% Renewable", label: "Biofuel-Driven Energy" },
                 { value: "Multi-Fuel", label: "Biomass Flexiblity" },
-                { value: "ZLow Emission", label: "Clean Energy Systems" },
+                { value: "Zero Emission", label: "Clean Energy Systems" },
             ],
             ctaBtn: "Download Export Profile"
         }
@@ -61,7 +61,7 @@ const DeliveringHero = () => {
                                     <p>{slide.desc}</p>
 
                                     {/* CTA */}
-                                    <button className="btn hero-btn foodGrainHeroBtn">
+                                    <button className="btn hero-btn foodGrainHeroBtn d-none">
                                         {slide.ctaBtn}
                                     </button>
 

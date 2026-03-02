@@ -17,10 +17,10 @@ const EnviormentImpact = () => {
         {
             id: 2,
             bgImage: tabImage2,
-            heading: "Biomass conversion & circular economy practices",
+            heading: "Conversion & circular economy practices",
             subText: "Efficient Irrigation Systems",
             thumbImage: tabImage2,
-            thumbTitle: "Biomass conversion & circular economy practices",
+            thumbTitle: "Conversion & circular economy practices",
         },
         {
             id: 3,

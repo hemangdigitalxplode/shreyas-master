@@ -14,7 +14,7 @@ const CoreCapibilitiesBiofuels = () => {
         {
             id: 2,
             image: cardImg2,
-            text: "Captive and grid-integrated power generation",
+            text: "Solar and grid-integrated power generation",
         },
         {
             id: 3,

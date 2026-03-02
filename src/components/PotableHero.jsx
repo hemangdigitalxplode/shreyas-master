@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import heroImage from '../assets/images/potable-hero.jpg';
 import stamp1 from '../assets/images/kpdl-logo.jpg'
-import stamp2 from '../assets/images/shreyas-banner-logo.jpg'
+import stamp2 from '../assets/images/shreyas-logo-removebg-preview.png'
 
 
 const PotableHero = () => {
@@ -28,10 +28,10 @@ const PotableHero = () => {
             desc:
                 "Crafting quality spirits through integrated distillation excellence",
             stats: [
-                { value: "7+MW", label: "Integrated Power Capacity" },
+                { value: "14+MW", label: "Integrated Power Capacity" },
                 { value: "100% Renewable", label: "Biofuel-Driven Energy" },
                 { value: "Multi-Fuel", label: "Biomass Flexiblity" },
-                { value: "ZLow Emission", label: "Clean Energy Systems" },
+                { value: "Zero Emission", label: "Clean Energy Systems" },
             ],
             ctaBtn: "Explore Our Capabilities"
         }
@@ -58,7 +58,7 @@ const PotableHero = () => {
 
                                     {/* STAMPS */}
                                     <div className="hero-stamps">
-                                        <img src={stamp2} alt="Shreyas Logo" />
+                                        <img className="shreyas-stamp" src={stamp2} alt="Shreyas Logo" />
                                         <img src={stamp1} alt="KDPL Logo" />
                                     </div>
 

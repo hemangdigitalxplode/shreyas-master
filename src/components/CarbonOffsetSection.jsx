@@ -1,5 +1,5 @@
 import React from "react";
-import indiaMap from "../assets/images/india-map.jpg"; 
+import indiaMap from "../assets/images/india-map.jpg";
 
 const CarbonOffsetSection = () => {
   return (
@@ -33,7 +33,7 @@ const CarbonOffsetSection = () => {
               {/* Karnataka Card */}
               <div className="col-md-6">
                 <div className="cosb-info-card h-100">
-                  <h4 className="cosb-state-title">Karnataka</h4>
+                  <h4 className="cosb-state-title">Uttar Pradesh</h4>
 
                   <div className="mb-4">
                     <span className="cosb-tree-number">9,200</span>

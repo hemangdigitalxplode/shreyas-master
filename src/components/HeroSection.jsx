@@ -62,9 +62,12 @@ const HeroSection = () => {
   ];
 
   const [activeSlide, setActiveSlide] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
 
   // Auto slide (optional – remove if not needed)
   useEffect(() => {
+    if (isPaused) return;
+
     const interval = setInterval(() => {
       setActiveSlide((prev) =>
         prev === heroSlides.length - 1 ? 0 : prev + 1
@@ -72,10 +75,13 @@ const HeroSection = () => {
     }, 5000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [isPaused, heroSlides.length]);
 
   return (
-    <section className="hero-section">
+    <section className="hero-section"
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)}
+    >
       {heroSlides.map((slide, index) => (
         <div
           key={slide.id}

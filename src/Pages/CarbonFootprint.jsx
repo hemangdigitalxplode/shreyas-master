@@ -7,10 +7,10 @@ import MissionSectionSustainabilityHub from "../components/MissionSectionSustain
 
 const CarbonFootprint = () => {
 
-return(
+    return (
 
-    <>
-    {/* Banner Section */}
+        <>
+            {/* Banner Section */}
             <div className='heroBannerContainer'>
                 <CarbonFootprintBanner />
             </div>
@@ -20,26 +20,26 @@ return(
                 <SmartLogistics />
             </div>
 
-               <div className='container-fluid'>
+            <div className='container-fluid'>
                 <EnergyEfficientMachinery />
             </div>
 
-             <div className='container'>
+            <div className='container'>
                 <CarbonOffsetSection />
             </div>
-            
+
+            <div className="container-fluid d-none">
+                <CarbonFootprintJourney></CarbonFootprintJourney>
+
+            </div>
+
             <div className="container-fluid">
-            <CarbonFootprintJourney></CarbonFootprintJourney>
-
-            </div>
-
-        <div className="container-fluid">
-                <MissionSectionSustainabilityHub/>
+                <MissionSectionSustainabilityHub />
             </div>
 
 
-    </>
-)
+        </>
+    )
 
 }
 export default CarbonFootprint;

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import heroImage from '../assets/images/banner-n.jpg';
 import stamp1 from '../assets/images/kpdl-logo.jpg'
-import stamp2 from '../assets/images/shreyas-banner-logo.jpg'
+import stamp2 from '../assets/images/shreyas-logo-removebg-preview.png'
 import stamp3 from '../assets/images/stamp-3.jpg'
 
 
@@ -30,7 +30,7 @@ const Biofuels = () => {
                 { value: "7+MW", label: "Integrated Power Capacity" },
                 { value: "100% Renewable", label: "Biofuel-Driven Energy" },
                 { value: "Multi-Fuel", label: "Biomass Flexiblity" },
-                { value: "ZLow Emission", label: "Clean Energy Systems" },
+                { value: "Zero Emission", label: "Clean Energy Systems" },
             ],
             ctaBtn: "Explore Our Capabilities"
         }
@@ -57,7 +57,7 @@ const Biofuels = () => {
 
                                     {/* STAMPS */}
                                     <div className="hero-stamps">
-                                        <img src={stamp2} alt="Shreyas Logo" />
+                                        <img className="shreyas-stamp" src={stamp2} alt="Shreyas Logo" />
                                         <img src={stamp1} alt="KDPL Logo" />
                                         <img src={stamp3} alt="KDPL Logo" />
                                     </div>

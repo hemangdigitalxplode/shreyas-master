@@ -19,7 +19,7 @@ const StrengthHero = () => {
         {
             id: 1,
             image: heroImage,
-            subtitle:"Established Excellence in Steel Manufacturing",
+            subtitle: "Established Excellence in Steel Manufacturing",
             titleBold: "Strenth That<br/>Defines Progress",
             desc:
                 "Premium quality iron and steel products engineered for the infrastructure, automotive, and manufacturing sectors.",
@@ -27,7 +27,7 @@ const StrengthHero = () => {
                 { value: "7+MW", label: "Integrated Power Capacity" },
                 { value: "100% Renewable", label: "Biofuel-Driven Energy" },
                 { value: "Multi-Fuel", label: "Biomass Flexiblity" },
-                { value: "ZLow Emission", label: "Clean Energy Systems" },
+                { value: "Zero Emission", label: "Clean Energy Systems" },
             ],
             ctaBtn: "Get a Quote"
         }

@@ -11,7 +11,7 @@ const slidesData = [
         img: Slider1,
         title: "Title",
         boxTitle: "State of the Art Manufacturing Infrastructure",
-        boxSubTitle: "<b>World Class</b> Distillation",
+        boxSubTitle: "<b>Japnese Sortex</b> Tech",
     },
     {
         id: 2,

@@ -16,6 +16,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import shreyasLogo from '../assets/images/shreyas-logo.png'
+import keyaanLogo from '../assets/images/kpdl-logo.jpg'
+import shreyasDistLogo from '../assets/images/shreyas-logo-removebg-preview.png'
+import shreyasEnergyLogo from '../assets/images/stamp-3.jpg'
 
 const Home = () => {
     const [activeTab, setActiveTab] = useState("verticals");
@@ -163,28 +167,69 @@ const Home = () => {
                         </Swiper>
                     )}
                     {activeTab === "listed" && (
-                        <div className="row g-4">
-                            {/* Card 1 */}
-                            <div className="col-md-4">
-                                <div className="business-card">
-                                    <img src={cardImg1} alt="Food & Grain" />
-                                    <div className="overlay">
-                                        <h5>Food & Grain</h5>
-                                        <p>
-                                            Integrated rice processing across Basmati
-                                            and Non-Basmati categories.
-                                        </p>
+                        <Swiper
+                            modules={[Navigation, Autoplay]}
+                            spaceBetween={24}
+                            slidesPerView={3}
+                            navigation={{
+                                nextEl: ".listed-next",
+                                prevEl: ".listed-prev",
+                            }}
+                            autoplay={{ delay: 5000, disableOnInteraction: false }}
+                            breakpoints={{
+                                0: { slidesPerView: 1 },
+                                576: { slidesPerView: 2 },
+                                992: { slidesPerView: 3 },
+                            }}
+                        >
+                            {/* Shreyas Sortex */}
+                            <SwiperSlide>
+                                <Link to="/shreyas-company">
+                                    <div className="business-card">
+                                        <img src={shreyasLogo} alt="Shreyas Sortex Industries Private Limited" />
+                                        <div className="overlay">
+                                            <h5>Shreyas Sortex Industries Private Limited</h5>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
+                                </Link>
+                            </SwiperSlide>
 
-                            {/* Card 2 */}
+                            {/* Keyaan Distilleries */}
+                            <SwiperSlide>
+                                <Link to="/keyan-distelleries-pvt-ltd">
+                                    <div className="business-card">
+                                        <img src={keyaanLogo} alt="Keyaan Distilleries Private Limited" />
+                                        <div className="overlay">
+                                            <h5>Keyaan Distilleries Private Limited</h5>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </SwiperSlide>
 
+                            {/* Shreyas Distilleries & Energy */}
+                            <SwiperSlide>
+                                <Link to="/distrills-ethanol">
+                                    <div className="business-card">
+                                        <img src={shreyasDistLogo} alt="Shreyas Distilleries & Energy Private Limited" />
+                                        <div className="overlay">
+                                            <h5>Shreyas Distilleries & Energy Private Limited</h5>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </SwiperSlide>
 
-                            {/* Card 3 */}
-
-
-                        </div>
+                            {/* Shreyas RE Energy */}
+                            <SwiperSlide>
+                                <Link to="/energy-biofuels">
+                                    <div className="business-card">
+                                        <img src={shreyasEnergyLogo} alt="Shreyas RE Energy Pvt Ltd." />
+                                        <div className="overlay">
+                                            <h5>Shreyas RE Energy Pvt Ltd.</h5>
+                                        </div>
+                                    </div>
+                                </Link>
+                            </SwiperSlide>
+                        </Swiper>
                     )}
                 </div>
 

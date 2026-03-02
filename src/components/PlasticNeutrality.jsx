@@ -1,8 +1,8 @@
 import React from "react";
-import productImg from "../assets/images/plastic-img.png"; 
-import Recyclable from "../assets/images/Recyclable.png"; 
-import SingleUse from "../assets/images/Single-Use.png"; 
-import AllSKUs from "../assets/images/All SKUs.png"; 
+import productImg from "../assets/images/plastic-img.png";
+import Recyclable from "../assets/images/Recyclable.png";
+import SingleUse from "../assets/images/Single-Use.png";
+import AllSKUs from "../assets/images/All SKUs.png";
 
 const PlasticNeutrality = () => {
   return (
@@ -25,7 +25,7 @@ const PlasticNeutrality = () => {
             {/* Row 1 */}
             <div className="plastic-row">
               <div className="icon-box">
-                <img className="w-100" src={Recyclable}/>
+                <img className="w-100" src={Recyclable} />
               </div>
               <div className="content-box">
                 <span className="card-title">100%</span>
@@ -36,12 +36,12 @@ const PlasticNeutrality = () => {
             {/* Row 2 */}
             <div className="plastic-row">
               <div className="icon-box">
-                <img className="w-100" src={SingleUse}/>
+                <img className="w-100" src={SingleUse} />
               </div>
               <div className="content-box">
-                <span className="card-title">Since 2020</span>
+                <span className="card-title">Zero</span>
                 <span className="card-sub">
-                  Single-Use Plastics Eliminated
+                  Carbon Emission
                 </span>
               </div>
             </div>
@@ -49,7 +49,7 @@ const PlasticNeutrality = () => {
             {/* Row 3 */}
             <div className="plastic-row">
               <div className="icon-box">
-               <img className="w-100" src={AllSKUs}/>
+                <img className="w-100" src={AllSKUs} />
               </div>
               <div className="content-box">
                 <span className="card-title">All SKUs</span>

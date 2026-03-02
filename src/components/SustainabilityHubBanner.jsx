@@ -19,7 +19,7 @@ const SustainabilityHubBanner = () => {
         {
             id: 1,
             image: heroImage,
-            subtitle:"Established Excellence in Steel Manufacturing",
+            subtitle: "Established Excellence in Steel Manufacturing",
             titleBold: "Committed to a <br /> Greener Tomorrow.",
             desc: "At Shreyas Group, we integrate sustainable practices into every stage of our value chain, ensuring growth that respects the planet.",
             ctaBtn: "Download Sustainability Report"
@@ -57,7 +57,7 @@ const SustainabilityHubBanner = () => {
                                     <p>{slide.desc}</p>
 
                                     {/* CTA */}
-                                    <button className="btn hero-btn foodGrainHeroBtn">
+                                    <button className="btn hero-btn foodGrainHeroBtn d-none">
                                         {slide.ctaBtn}
                                     </button>
 

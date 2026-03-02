@@ -19,7 +19,7 @@ const PoweringCarbonNeutralBanner = () => {
         {
             id: 1,
             image: heroImage,
-            titleBold: "Powered by the <br />Sun & Wind",
+            titleBold: "Empowering Future by Renewable Energy",
             desc: "Transitioning our manufacturing hubs to 100% clean energy to ensure a sustainable industrial legacy.",
             ctaBtn: "Explore Our Energy"
         }
@@ -56,7 +56,7 @@ const PoweringCarbonNeutralBanner = () => {
                                     <p>{slide.desc}</p>
 
                                     {/* CTA */}
-                                    <button className="btn hero-btn foodGrainHeroBtn">
+                                    <button className="btn hero-btn foodGrainHeroBtn d-none">
                                         {slide.ctaBtn}
                                     </button>
 

@@ -1,7 +1,7 @@
 import React from "react";
 
 const timelineData = [
-  
+
   {
     year: "2020",
     title: "Elimination of Single Use Plastics",
@@ -9,7 +9,7 @@ const timelineData = [
   },
   {
     year: "2024",
-    title: "LIntegrated Bio-Fuel Project",
+    title: "Integrated Bio-Fuel Project",
     subtitle: "Launch of our proprietary bio-fuel processing initiative.",
   },
   {

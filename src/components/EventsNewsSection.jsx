@@ -18,7 +18,7 @@ const EventsNewsSection = () => {
                         </div>
 
                         <div className="event-content">
-                            <span className="tag">EVENTS</span>
+                            {/* <span className="tag">EVENTS</span> */}
                             <h3>Industry <br /> Platform</h3>
 
                             <p>
@@ -43,7 +43,7 @@ const EventsNewsSection = () => {
                 {/* NEWS CARD */}
                 <div className="col-lg-5">
                     <div className="news-card">
-                        <span className="tag yellow">NEWS</span>
+                        {/* <span className="tag yellow">NEWS</span> */}
 
                         {/* <h3>What’s New<br />at Shreyas Group</h3> */}
                         <h3>Media<br />Update</h3>
@@ -69,7 +69,7 @@ const EventsNewsSection = () => {
                 {/* NEWS CARD */}
                 <div className="col-lg-5">
                     <div className="news-card2">
-                        <span className="tag yellow">MOST RECENT</span>
+                        <span className="tag yellow">{""}</span>
 
                         <h3>Highlights</h3>
 

@@ -23,9 +23,9 @@ const EthanolHeroSection = () => {
             image: heroImage,
             titleBold: "Distilleries<br/> & Breweries",
             desc:
-                "Driving India's Green Energy for Better Future",
+                "Crafted with perfection, served with passion.",
             stats: [
-                { value: "Ethanol", label: "Ethanol, ENA Production & Potable Spirits" },
+                { value: "Ethanol", label: "Ethanol, ENA Production & <br/>Potable Spirits" },
                 { value: "Feed Stock", label: "Maize, Rice & Molasses" },
                 { value: "Breweries", label: "RTD Products" },
                 // { value: "Captive Power", label: "Energy Self Reliant Operation" },
@@ -80,7 +80,6 @@ const EthanolHeroSection = () => {
                     </div>
                 ))}
                 <div className="hero-controls">
-
                     {/* Progress line */}
                     <div className="hero-controls__progress d-none">
                         <span className="hero-controls__progress-indicator"></span>
@@ -94,7 +93,7 @@ const EthanolHeroSection = () => {
                             {heroSlides[activeSlide]?.stats?.map((stat, i) => (
                                 <div key={i} className="hero-controls__stat">
                                     <strong>{stat.value}</strong>
-                                    <span>{stat.label}</span>
+                                    <span dangerouslySetInnerHTML={{ __html: stat.label }}></span>
                                 </div>
                             ))}
                         </div>

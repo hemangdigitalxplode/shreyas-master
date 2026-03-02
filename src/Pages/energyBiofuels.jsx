@@ -32,7 +32,7 @@ const EnergyBioFuels = () => {
                 <ExpandingSliderBiofuels />
             </div>
 
-            <div className="container my-5">
+            <div className="container my-5 d-none">
                 <QualityBiofuels />
             </div>
 

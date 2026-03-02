@@ -86,11 +86,6 @@ const Footer = () => {
                                 </a>
 
                                 <li>Shreyas RE Energy Pvt Ltd.</li>
-
-                                <a className="text-decoration-none" href="/our-strength">
-                                    <li >Shreyas Steel Pvt Ltd.</li>
-                                </a>
-
                                 {/* <li>Shreyas Airline Pvt Ltd.</li> */}
                             </ul>
                         </div>
