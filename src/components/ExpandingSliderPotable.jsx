@@ -32,7 +32,7 @@ const slidesData = [
         img: Slider4,
         title: "Title",
         boxTitle: "High Capacity Manufacturing",
-        boxSubTitle: "Upto 6Lakhs Cases Production",
+        boxSubTitle: "More than 11 Lakhs Cases Production",
     },
     {
         id: 4,

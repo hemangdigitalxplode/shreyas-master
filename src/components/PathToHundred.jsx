@@ -8,15 +8,16 @@ const timelineData = [
     filled: true,
   },
   {
-    year: "2024",
-    text: "Biomass boilers operational",
+    year: "2022",
+    text: "50% renewable energy achieved",
     side: "right",
   },
   {
-    year: "2022",
-    text: "50% renewable energy achieved",
+    year: "2024",
+    text: "Biomass boilers operational",
     side: "left",
   },
+
   {
     year: "2025",
     text: "Solar energy integration",

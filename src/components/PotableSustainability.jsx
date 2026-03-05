@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import sustainableImage from '../assets/images/potable-tab-section-2.jpg';
-import tabImage2 from '../assets/images/thumb2.png';
-import tabImage3 from '../assets/images/thumb3.png';
+import sustainableImage from '../assets/images/cilantro-coriander-rice-served-ceramic-terracotta-bowl-it-s-popular-indian-chinese-recipe-selective-focusResponsible spirits manufacturing.jpg.jpeg';
+import tabImage2 from '../assets/images/Energy-efficient distillation and blending systems.jpg.jpeg';
+import tabImage3 from '../assets/images/by-product-waste.jpeg';
 
 const PotableSustainability = () => {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -9,10 +9,10 @@ const PotableSustainability = () => {
         {
             id: 1,
             bgImage: sustainableImage,
-            heading: "Responsible spirits manufacturing for a cleaner future",
+            heading: "Ethically Sourced, Exceptionally Crafted",
             subText: "Reducing environmental impact through responsible operations",
             thumbImage: sustainableImage,
-            thumbTitle: "Responsible spirits manufacturing for a cleaner future",
+            thumbTitle: "Ethically Sourced, Exceptionally Crafted",
         },
         {
             id: 2,

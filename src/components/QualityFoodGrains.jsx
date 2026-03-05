@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import sustainableImage from '../assets/images/person-white-coat-is-working-with-many-different-grains.jpg';
-import tabImage2 from '../assets/images/thumb2.png';
-import tabImage3 from '../assets/images/thumb3.png';
+import tabImage2 from '../assets/images/hygine.jpeg';
+import tabImage3 from '../assets/images/tabbb-image-3.jpeg';
 
 const QualityFoodGrains = () => {
     const [activeIndex, setActiveIndex] = useState(0);

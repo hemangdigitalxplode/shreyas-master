@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import sustainableImage from '../assets/images/potable-tab-1-1.jpg';
-import tabImage2 from '../assets/images/thumb2.png';
-import tabImage3 from '../assets/images/thumb3.png';
+import tabImage2 from '../assets/images/Stringent-quality-control-and-testing.jpg.jpeg';
+import tabImage3 from '../assets/images/Advanced safety and firefighting systems.jpg.jpeg';
 
 const PotableQuality = () => {
     const [activeIndex, setActiveIndex] = useState(0);

@@ -11,7 +11,7 @@ const slidesData = [
         img: Slider1,
         title: "Title",
         boxTitle: "State of the Art Manufacturing Infrastructure",
-        boxSubTitle: "Japanese Satake Milling & Sortex",
+        boxSubTitle: "Energy Efficient Technology",
     },
     {
         id: 2,
@@ -24,22 +24,15 @@ const slidesData = [
         id: 3,
         img: Slider3,
         title: "Title",
-        boxTitle: "Integrated Rice Processing",
-        boxSubTitle: "Zero Discharge Operations",
-    },
-    {
-        id: 4,
-        img: Slider4,
-        title: "Title",
-        boxTitle: "High Capacity Manufacturing",
-        boxSubTitle: "Export to 40+ Countries",
+        boxTitle: "Automatic Process Control",
+        boxSubTitle: "High Scale Standard",
     },
     {
         id: 4,
         img: Slider5,
         title: "Title",
-        boxTitle: "High Capacity Manufacturing",
-        boxSubTitle: "Export to 40+ Countries",
+        boxTitle: "High Quality Standard",
+        boxSubTitle: "World Class Quality Lab",
     },
 ];
 
@@ -75,7 +68,6 @@ const ExpandingSliderBiofuels = () => {
                     </div>
                 ))}
             </section>
-
         </>
     )
 }

@@ -1,8 +1,8 @@
 import React from "react";
-import productImg from "../assets/images/solar-capacity.png"; 
-import Recyclable from "../assets/images/Recyclable.png"; 
-import SingleUse from "../assets/images/Single-Use.png"; 
-import AllSKUs from "../assets/images/All SKUs.png"; 
+import productImg from "../assets/images/solar-capacity.png";
+import Recyclable from "../assets/images/Recyclable.png";
+import SingleUse from "../assets/images/Single-Use.png";
+import AllSKUs from "../assets/images/All SKUs.png";
 
 const SolarCapacityPowering = () => {
   return (
@@ -11,11 +11,10 @@ const SolarCapacityPowering = () => {
 
         {/* LEFT SIDE */}
         <div className="plastic-left">
-          <h2>Solar Capacity & Live Analytics
-</h2>
-
+          <h2>Solar-Driven Energy Ecosystem
+          </h2>
           <p>
-            Harnessing solar energy as our primary power pillar generating clean megawatts across every facility.
+            Harnessing solar power as a core renewable energy source, generating clean megawatts across our facilities while optimising performance through real-time energy monitoring systems.
           </p>
 
           <div className="plastic-cards">
@@ -23,23 +22,23 @@ const SolarCapacityPowering = () => {
             {/* Row 1 */}
             <div className="plastic-row">
               <div className="icon-box">
-                <img className="w-100" src={Recyclable}/>
+                <img className="w-100" src={Recyclable} />
               </div>
               <div className="content-box">
-                <span className="card-title">100%</span>
-                <span className="card-sub">Recyclable Laminates</span>
+                <span className="card-title">7+ MW</span>
+                <span className="card-sub">Installed Renewable Solar Capacity</span>
               </div>
             </div>
 
             {/* Row 2 */}
             <div className="plastic-row">
               <div className="icon-box">
-                <img className="w-100" src={SingleUse}/>
+                <img className="w-100" src={SingleUse} />
               </div>
               <div className="content-box">
-                <span className="card-title">Since 2020</span>
+                <span className="card-title">100%</span>
                 <span className="card-sub">
-                  Single-Use Plastics Eliminated
+                  Clean Energy Integration
                 </span>
               </div>
             </div>
@@ -47,12 +46,24 @@ const SolarCapacityPowering = () => {
             {/* Row 3 */}
             <div className="plastic-row">
               <div className="icon-box">
-               <img className="w-100" src={AllSKUs}/>
+                <img className="w-100" src={AllSKUs} />
               </div>
               <div className="content-box">
-                <span className="card-title">All SKUs</span>
+                <span className="card-title">24/7</span>
                 <span className="card-sub">
-                  Eco-Certified Packaging
+                  Live Energy Analytics
+                </span>
+              </div>
+            </div>
+            {/* Row-4 */}
+            <div className="plastic-row">
+              <div className="icon-box">
+                <img className="w-100" src={AllSKUs} />
+              </div>
+              <div className="content-box">
+                <span className="card-title">Reduced</span>
+                <span className="card-sub">
+                  Grid Dependence
                 </span>
               </div>
             </div>

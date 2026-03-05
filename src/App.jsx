@@ -25,6 +25,7 @@ import PoweringCarbonNeutral from "./Pages/PoweringCarbonNeutral";
 // import ShreyasHome from "./components/ShreyasHome";
 import ShreyasCompanyPage from './Pages/ShreyasCompanyPage'
 import ScrollToTop from "./components/ScrollToTop";
+import FooterNew from "./components/FooterNew";
 
 const App = () => {
   return (
@@ -60,6 +61,7 @@ const App = () => {
           </Routes>
         </main>
         {/* Footer – */}
+        {/* <FooterNew /> */}
         <Footer />
       </BrowserRouter>
 

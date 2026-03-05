@@ -31,14 +31,14 @@ const slidesData = [
         id: 4,
         img: Slider4,
         title: "Title",
-        boxTitle: "Experience the World-Class Quality",
+        boxTitle: "High Capacity Manufacturing",
         boxSubTitle: "International Quality Standard",
     },
     {
         id: 4,
         img: Slider5,
         title: "Title",
-        boxTitle: "High Capacity Manufacturing",
+        boxTitle: "Experience the World-Class Quality",
         boxSubTitle: "Export to 40+ Countries",
     },
 ];
@@ -74,7 +74,6 @@ const ExpandingSlider = () => {
                     )}
                 </div>
             ))}
-
         </section>
     );
 };

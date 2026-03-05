@@ -21,7 +21,7 @@ const SmartLogistics = () => {
             </div>
             <h3 className="sl-card-title">ESP</h3>
             <p className="sl-card-text">
-              Implementation of advanced navigation to minimize mileage and idling.
+              An Electrostatic Precipitator (ESP) in a boiler process removes fly ash from flue gas using electric forces. Dust-laden gas enters, passing through high-voltage discharge electrodes (negative) that charge particles.
             </p>
           </div>
 
@@ -30,9 +30,9 @@ const SmartLogistics = () => {
             <div className="sl-icon-box sl-icon-yellow">
               <img className="w-100" src={Fleet} />
             </div>
-            <h3 className="sl-card-title">Ash Removal</h3>
+            <h3 className="sl-card-title">Ash Recycle</h3>
             <p className="sl-card-text">
-              Data-driven optimization of vehicle loads and maintenance to maximize fuel efficiency.
+              Boiler ash, specifically bottom ash, can be recycled by returning it to the combustion chamber to reduce landfill footprint, or repurposed for construction materials like bricks, cement, and road base construction.
             </p>
           </div>
 

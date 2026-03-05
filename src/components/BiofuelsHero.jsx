@@ -27,7 +27,7 @@ const Biofuels = () => {
             desc:
                 "Powering sustainable energy solutions for industries and communities",
             stats: [
-                { value: "7+MW", label: "Integrated Power Capacity" },
+                { value: "14+MW", label: "Integrated Power Capacity" },
                 { value: "100% Renewable", label: "Biofuel-Driven Energy" },
                 { value: "Multi-Fuel", label: "Biomass Flexiblity" },
                 { value: "Zero Emission", label: "Clean Energy Systems" },

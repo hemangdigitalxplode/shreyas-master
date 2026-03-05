@@ -3,6 +3,7 @@ import productImg from "../assets/images/plastic-img.png";
 import Recyclable from "../assets/images/Recyclable.png";
 import SingleUse from "../assets/images/Single-Use.png";
 import AllSKUs from "../assets/images/All SKUs.png";
+import ZeroCarbon from '../assets/images/zero-comission.png'
 
 const PlasticNeutrality = () => {
   return (
@@ -36,7 +37,8 @@ const PlasticNeutrality = () => {
             {/* Row 2 */}
             <div className="plastic-row">
               <div className="icon-box">
-                <img className="w-100" src={SingleUse} />
+                {/* <img className="w-100" src={SingleUse} /> */}
+                <img src={ZeroCarbon} />
               </div>
               <div className="content-box">
                 <span className="card-title">Zero</span>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import heroImage from '../assets/images/foodGrainsHero.png';
+import heroImage2 from '../assets/images/food-banner-new.jpeg';
 import stamp3 from '../assets/images/shreyas-logo.png'
 
 
@@ -7,7 +8,7 @@ const FoodGrainsHero = () => {
     const heroSlides = [
         {
             id: 1,
-            image: heroImage,
+            image: heroImage2,
             titleBold: "From the Foothills <br/> of the Himalayas <br/>  to the Tables",
             titleSub: "Rice Processing Excellence",
             desc:
@@ -16,7 +17,7 @@ const FoodGrainsHero = () => {
                 { value: "74 MT", label: "/ Hour Capacity" },
                 { value: "10+", label: "Global Certifications" },
                 { value: "40+", label: "Export Countries" },
-                // { value: "Zero", label: "Discharge Operations" },
+                { value: "Japnese", label: "Sortex Tech" },
             ],
             ctaBtn: "Explore Our Products"
         },
@@ -31,7 +32,7 @@ const FoodGrainsHero = () => {
                 { value: "74 MT", label: "/ Hour Capacity" },
                 { value: "10+", label: "Global Certifications" },
                 { value: "40+", label: "Export Countries" },
-                // { value: "Zero", label: "Discharge Operations" },
+                { value: "Japnese", label: "Sortex Tech" },
             ],
             ctaBtn: "Explore Our Products"
         },
@@ -99,7 +100,7 @@ const FoodGrainsHero = () => {
 
 
                 {/* Bottom Controls Wrapper */}
-                <div className="hero-controls">
+                <div className="hero-controls-food-grains">
 
                     {/* Progress line */}
                     <div className="hero-controls__progress d-none">

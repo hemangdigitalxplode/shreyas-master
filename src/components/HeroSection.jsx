@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import heroImage from "../assets/images/hero_banner.png";
 import heroImage2 from "../assets/images/Background2.png";
 import heroImage3 from "../assets/images/Background3.png";
+import heroImage4 from "../assets/images/potable-hero.jpg";
 
 const HeroSection = () => {
   const heroSlides = [
@@ -16,7 +17,7 @@ const HeroSection = () => {
         { value: "74 MT", label: "/ Hour Capacity" },
         { value: "10+", label: "Global Certifications" },
         { value: "40+", label: "Export Countries" },
-        { value: "Zero", label: "Discharge Operations" },
+        { value: "Japnese", label: "Sortex Tech" },
       ],
       button: {
         label: "Know More",
@@ -32,7 +33,7 @@ const HeroSection = () => {
         "World-class Japanese milling, advanced sortex systems, and scalable infrastructure built for quality and efficiency.",
       stats: [
         { value: "100%", label: "Automation" },
-        { value: "Japanese", label: "Sortex Tech" },
+        { value: "Zero", label: "Discharge" },
         { value: "ISO", label: "Certified Plants" },
         { value: "Zero", label: "Waste Policy" },
       ],
@@ -57,6 +58,24 @@ const HeroSection = () => {
       button: {
         label: "Know More",
         link: "/delivery-purity",
+      },
+    },
+    {
+      id: 4,
+      image: heroImage4,
+      titleBold: "Potable",
+      titleSub: "Spirits",
+      desc:
+        "Crafting quality spirits through integrated distillation excellence",
+      stats: [
+        { value: "14+MW", label: "Integrated Power Capacity" },
+        { value: "100% Renewable", label: "Biofuel-Driven Energy" },
+        { value: "Multi-Fuel", label: "Biomass Flexiblity" },
+        { value: "Zero Emission", label: "Clean Energy Systems" },
+      ],
+      button: {
+        label: "Know More",
+        link: "/potable-spirits",
       },
     },
   ];
@@ -149,7 +168,7 @@ const HeroSection = () => {
         </button>
       </div>
       {/* Thumbnail Previews */}
-      <div className="hero-thumbnails">
+      <div className="hero-thumbnails-home">
         {heroSlides.map((slide, index) => (
           <div
             key={slide.id}

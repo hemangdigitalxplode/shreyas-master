@@ -1,16 +1,16 @@
 import React from "react";
-import productImg from "../assets/images/bio-energy-image.png"; 
+import productImg from "../assets/images/bio-energy-image.png";
 import { Flame, TrendingDown, Leaf } from "lucide-react";
 
 const BioEnergyPowering = () => {
   return (
     <section className="bio-energy-section">
       <div className="bio-energy-container">
-        
+
         {/* Left Image */}
         <div className="bio-energy-image-wrapper">
           <img
-            src={productImg}   
+            src={productImg}
             alt="Bio Energy Plant"
             className="bio-energy-image"
           />
@@ -18,14 +18,13 @@ const BioEnergyPowering = () => {
 
         {/* Right Content */}
         <div className="bio-energy-content">
-          
+
           <h2 className="bio-energy-heading">
-            Bio-Energy & <br /> Thermal Efficiency
+            Driving the Future  <br /> with Clean Energy
           </h2>
 
           <p className="bio-energy-subtext">
-            Reducing reliance on fossil fuels through circular thermal energy turning 
-            agricultural waste into industrial power.
+            Advancing renewable energy adoption by transforming agricultural biomass into sustainable thermal power, reducing fossil fuel dependence and strengthening circular energy systems.
           </p>
 
           {/* Feature 1 */}
@@ -36,8 +35,7 @@ const BioEnergyPowering = () => {
             <div>
               <h4 className="bio-energy-feature-title">Biomass Boilers</h4>
               <p className="bio-energy-feature-text">
-                Agricultural byproducts like rice husks power our thermal systems, 
-                converting waste into clean heat energy.
+                Renewable agricultural byproducts such as rice husks fuel high-efficiency thermal systems, converting waste into clean industrial energy.
               </p>
             </div>
           </div>
@@ -48,10 +46,9 @@ const BioEnergyPowering = () => {
               <TrendingDown size={24} strokeWidth={2} />
             </div>
             <div>
-              <h4 className="bio-energy-feature-title">Grid Independence</h4>
+              <h4 className="bio-energy-feature-title">Energy Independence</h4>
               <p className="bio-energy-feature-text">
-                62% reduction in coal and grid power consumption since 2018 
-                through circular thermal energy systems.
+                Significant reduction in coal and conventional grid power usage through integrated biomass-based renewable systems.
               </p>
             </div>
           </div>
@@ -62,10 +59,9 @@ const BioEnergyPowering = () => {
               <Leaf size={24} strokeWidth={2} />
             </div>
             <div>
-              <h4 className="bio-energy-feature-title">Zero Waste Cycle</h4>
+              <h4 className="bio-energy-feature-title">Circular Energy Model</h4>
               <p className="bio-energy-feature-text">
-                Every byproduct becomes a resource closing the loop on 
-                industrial energy waste.
+                By-products are repurposed as renewable inputs, creating a closed-loop system that maximises resource efficiency and minimises environmental impact.
               </p>
             </div>
           </div>

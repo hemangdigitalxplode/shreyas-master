@@ -28,7 +28,7 @@ const AboutPotable = () => {
                         {/* <h6 className='smallHeading'>A collaborative distillation platform driven by quality and scale</h6> */}
                         <h6 className='smallHeading'>Alcoholic Beverage Solutions</h6>
                         <p>
-                            The Potable Spirits vertical of Shreyas Group brings together the combined strengths of Keyaan Distilleries Pvt. Ltd. (KDPL) and Shreyas Distilleries & Energy Pvt. Ltd. to build a robust, future-ready beverage alcohol ecosystem.
+                            The Potable Spirits vertical of Shreyas Group brings together the combined strengths of Keyaan Distilleries Pvt. Ltd. and Shreyas Distilleries & Energy Pvt. Ltd. to build a robust, future-ready beverage alcohol ecosystem.
                         </p>
                         <p>
                             With deep expertise in distillation, fermentation, and integrated utilities, the vertical is designed to deliver consistent, high-quality spirits across multiple categories.

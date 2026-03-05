@@ -36,7 +36,7 @@ const FivePillarsSection = () => {
             <div className="fp-icon"><img className="w-100" src={Carbon} /></div>
             <h3>Carbon Footprint</h3>
             <p>
-              Our journey in waste management and eco-friendly packaging.
+              A zero-carbon factory achieves net-zero CO2 emissions by combining maximum energy efficiency
             </p>
             <a href="/carbon-footprint">Read More</a>
           </div>

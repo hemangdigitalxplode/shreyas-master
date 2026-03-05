@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import sustainableImage from '../assets/images/new-life-tree-stump.jpg';
-import tabImage2 from '../assets/images/thumb2.png';
-import tabImage3 from '../assets/images/thumb3.png';
+import tabImage2 from '../assets/images/economy.jpeg';
+import tabImage3 from '../assets/images/waterrrrrrr.jpeg';
 
 const EnviormentImpact = () => {
     const [activeIndex, setActiveIndex] = useState(0);

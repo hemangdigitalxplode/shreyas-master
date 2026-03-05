@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import sustainableImage from '../assets/images/sustainability.png';
-import tabImage2 from '../assets/images/thumb2.png';
-import tabImage3 from '../assets/images/thumb3.png';
+import tabImage2 from '../assets/images/water-recycle.jpeg';
+import tabImage3 from '../assets/images/energy-efficient.jpeg';
 
 const FutureReady = () => {
     const [activeIndex, setActiveIndex] = useState(0);

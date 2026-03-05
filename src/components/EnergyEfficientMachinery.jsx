@@ -40,7 +40,7 @@ const EnergyEfficientMachinery = () => {
               </div>
               <div>
                 <h4 className="eem-mini-title">SPM</h4>
-                <span className="eem-status">Active</span>
+                <span className="eem-status">{""}</span>
               </div>
             </div>
 

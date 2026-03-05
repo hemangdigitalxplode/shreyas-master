@@ -11,14 +11,13 @@ const FutureGrowthBiofuels = () => {
                         <h1 className="mb-3 ethanolHeading">
                             Growth & future <br /> outlook
                         </h1>
-                        <h6 className='smallHeading'>Expanding into value-added distillation and beverage segments</h6>
+                        <h6 className='smallHeading'>Expanding Renewable Energy & Biofuel Capabilities</h6>
                         <p>
-                            The Distilleries & Ethanol vertical is structured for strategic expansion into value-added segments such as Extra Neutral Alcohol (ENA), beverage alcohol, and downstream integration. Our scalable infrastructure and technology-led approach enable us to adapt to evolving market and regulatory landscapes.
+                            The Energy & Biofuels vertical is focused on expanding advanced renewable energy and next-generation biofuel solutions. By scaling biofuel production, strengthening biomass-to-energy systems, and enhancing integrated power capacity, we are building a resilient, low-carbon energy ecosystem. Backed by scalable infrastructure and a technology-driven approach, we remain agile to evolving policies and industry needs while accelerating the transition toward cleaner, future-ready energy solutions.
                         </p>
                         {/* CTA Button */}
                         <button className="btn aboutBtn mt-3">
-                            Future-ready infrastructure <br />
-                            for diversified markets
+                            Explore Our Renewable Energy Capabilities
                         </button>
 
                     </div>
